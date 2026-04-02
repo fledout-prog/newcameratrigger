@@ -1,0 +1,13 @@
+# Gradle cache and build outputs
+.gradle/
+build/
+local.properties
+*.iml
+
+# Android Studio
+.idea/
+*.apk
+*.ap_
+
+# Release keystore
+release-keystore.properties

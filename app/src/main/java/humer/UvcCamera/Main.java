@@ -51,6 +51,8 @@ import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.LinearLayout;
 import android.widget.ScrollView;
+import android.widget.Switch;
+import android.widget.TextView;
 import android.widget.Toast;
 import android.widget.ToggleButton;
 
@@ -119,6 +121,9 @@ public class Main extends AppCompatActivity {
 
     public Button           menu;
     private ZoomTextView    tv;
+    private Switch          previewSwitch;
+    private TextView        statusText;
+    private CameraSettingsDB cameraSettingsDB;
 
     private final int       REQUEST_PERMISSION_STORAGE_READ=1;
     private final int       REQUEST_PERMISSION_STORAGE_WRITE=2;
@@ -344,6 +349,86 @@ public class Main extends AppCompatActivity {
                 }
             }
         });
+
+        // ---- Photo Trigger App additions ----
+
+        // Status label
+        statusText = (TextView) findViewById(R.id.triggerStatusText);
+
+        // Preview toggle switch
+        previewSwitch = (Switch) findViewById(R.id.previewSwitch);
+        cameraSettingsDB = new CameraSettingsDB(this);
+        if (previewSwitch != null) {
+            previewSwitch.setChecked(cameraSettingsDB.isPreviewEnabled());
+            previewSwitch.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+                @Override
+                public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+                    cameraSettingsDB.setPreviewEnabled(isChecked);
+                    log("Preview enabled: " + isChecked);
+                }
+            });
+        }
+
+        // Load saved camera settings into static fields so the stream can start
+        if (cameraSettingsDB.isConfigured()) {
+            loadSettingsFromDB(cameraSettingsDB);
+            updateStatusText(true);
+        } else {
+            updateStatusText(false);
+        }
+
+        // Start the persistent foreground service
+        startTriggerService();
+    }
+
+    /** Loads all saved camera parameters from CameraSettingsDB into Main's static fields. */
+    private void loadSettingsFromDB(CameraSettingsDB db) {
+        camStreamingAltSetting  = db.getCamStreamingAltSetting();
+        camFormatIndex          = db.getCamFormatIndex();
+        camFrameIndex           = db.getCamFrameIndex();
+        camFrameInterval        = db.getCamFrameInterval();
+        packetsPerRequest       = db.getPacketsPerRequest();
+        maxPacketSize           = db.getMaxPacketSize();
+        imageWidth              = db.getImageWidth();
+        imageHeight             = db.getImageHeight();
+        activeUrbs              = db.getActiveUrbs();
+        videoformat             = db.getVideoformat();
+        deviceName              = db.getDeviceName();
+        bUnitID                 = db.getBUnitID();
+        bTerminalID             = db.getBTerminalID();
+        bStillCaptureMethod     = db.getBStillCaptureMethod();
+        LIBUSB                  = db.isLibUsb();
+        moveToNative            = db.isMoveToNative();
+        bulkMode                = db.isBulkMode();
+        log("Camera settings loaded from DB: " + videoformat + " " + imageWidth + "x" + imageHeight);
+    }
+
+    /** Updates the status text shown in the main UI. */
+    private void updateStatusText(boolean configured) {
+        if (statusText == null) return;
+        if (configured) {
+            String fps = (camFrameInterval > 0)
+                    ? String.valueOf(10000000 / camFrameInterval)
+                    : "?";
+            statusText.setText("✓ Camera ready: " + videoformat
+                    + "  " + imageWidth + "×" + imageHeight
+                    + "  " + fps + " fps"
+                    + "\nPress Q on USB keyboard to take a photo");
+            statusText.setTextColor(Color.parseColor("#2E7D32"));
+        } else {
+            statusText.setText("⚠ No camera settings saved.\nPress 'Set Up The Camera Device' to configure.");
+            statusText.setTextColor(Color.parseColor("#B71C1C"));
+        }
+    }
+
+    /** Starts the CameraPhotoTriggerService as a foreground service. */
+    private void startTriggerService() {
+        Intent serviceIntent = new Intent(this, CameraPhotoTriggerService.class);
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+            startForegroundService(serviceIntent);
+        } else {
+            startService(serviceIntent);
+        }
     }
 
     @Override
@@ -405,6 +490,15 @@ public class Main extends AppCompatActivity {
             LIBUSB = data.getBooleanExtra("libUsb", false);
             moveToNative = data.getBooleanExtra("moveToNative", false);
             bulkMode = data.getBooleanExtra("bulkMode", false);
+            // Persist settings so next launch can auto-connect
+            if (cameraSettingsDB == null) cameraSettingsDB = new CameraSettingsDB(this);
+            cameraSettingsDB.saveSettings(
+                    camStreamingAltSetting, camFormatIndex, camFrameIndex,
+                    camFrameInterval, packetsPerRequest, maxPacketSize,
+                    imageWidth, imageHeight, activeUrbs, videoformat, deviceName,
+                    bUnitID, bTerminalID, bStillCaptureMethod,
+                    LIBUSB, moveToNative, bulkMode);
+            updateStatusText(true);
             if (camFrameInterval == 0)
                 tv.setText("Your current Values are:\n\nPackets Per Request = " + packetsPerRequest + "\nActive Urbs = " + activeUrbs +
                         "\nAltSetting = " + camStreamingAltSetting + "\nMaximal Packet Size = " + maxPacketSize + "\nVideoformat = " + videoformat +
@@ -811,8 +905,17 @@ public class Main extends AppCompatActivity {
                     }
                 });
             } else {
+                // Persist the current settings before starting the stream
+                if (cameraSettingsDB == null) cameraSettingsDB = new CameraSettingsDB(this);
+                cameraSettingsDB.saveSettings(
+                        camStreamingAltSetting, camFormatIndex, camFrameIndex,
+                        camFrameInterval, packetsPerRequest, maxPacketSize,
+                        imageWidth, imageHeight, activeUrbs, videoformat, deviceName,
+                        bUnitID, bTerminalID, bStillCaptureMethod,
+                        LIBUSB, moveToNative, bulkMode);
+                updateStatusText(true);
                 if (LIBUSB) {
-                    Intent intent = new Intent(this, StartIsoStreamActivityUvc.class);
+                    Intent intent = new Intent(this, PhotoTriggerStreamActivity.class);
                     Bundle bundle=new Bundle();
                     bundle.putInt("camStreamingAltSetting",camStreamingAltSetting);
                     bundle.putString("videoformat",videoformat);
@@ -877,7 +980,7 @@ public class Main extends AppCompatActivity {
                 });
             } else {
                 if (LIBUSB) {
-                    Intent intent = new Intent(this, StartIsoStreamActivityUvc.class);
+                    Intent intent = new Intent(this, PhotoTriggerStreamActivity.class);
                     Bundle bundle=new Bundle();
                     bundle.putInt("camStreamingAltSetting",camStreamingAltSetting);
                     bundle.putString("videoformat",videoformat);
