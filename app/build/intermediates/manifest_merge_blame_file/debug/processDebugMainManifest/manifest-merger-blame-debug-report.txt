@@ -1,0 +1,262 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="humer.uvc_camera"
+4    android:versionCode="128"
+5    android:versionName="2.2.9" >
+6
+7    <uses-sdk
+7-->/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/AndroidManifest.xml:16:5-17:125
+8        android:minSdkVersion="15"
+9        android:targetSdkVersion="36" />
+10
+11    <uses-permission android:name="android.permission.READ_MEDIA_*" />
+11-->/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/AndroidManifest.xml:4:5-71
+11-->/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/AndroidManifest.xml:4:22-68
+12    <uses-permission
+12-->/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/AndroidManifest.xml:5:5-107
+13        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+13-->/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/AndroidManifest.xml:5:22-78
+14        android:maxSdkVersion="32" />
+14-->/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/AndroidManifest.xml:5:79-105
+15    <uses-permission android:name="android.permission.STORAGE" />
+15-->/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/AndroidManifest.xml:6:5-66
+15-->/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/AndroidManifest.xml:6:22-63
+16    <uses-permission
+16-->/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/AndroidManifest.xml:7:5-106
+17        android:name="android.permission.READ_EXTERNAL_STORAGE"
+17-->/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/AndroidManifest.xml:7:22-77
+18        android:maxSdkVersion="32" />
+18-->/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/AndroidManifest.xml:7:78-104
+19    <uses-permission android:name="android.permission.USB_PERMISSION" />
+19-->/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/AndroidManifest.xml:8:5-73
+19-->/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/AndroidManifest.xml:8:22-70
+20    <uses-permission android:name="android.permission.CAMERA" />
+20-->/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/AndroidManifest.xml:9:5-65
+20-->/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/AndroidManifest.xml:9:22-62
+21    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+21-->/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/AndroidManifest.xml:10:5-80
+21-->/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/AndroidManifest.xml:10:22-77
+22    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+22-->/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/AndroidManifest.xml:11:5-71
+22-->/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/AndroidManifest.xml:11:22-68
+23
+24    <uses-feature
+24-->/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/AndroidManifest.xml:13:5-84
+25        android:name="android.hardware.camera"
+25-->/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/AndroidManifest.xml:13:19-57
+26        android:required="false" />
+26-->/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/AndroidManifest.xml:13:58-82
+27    <uses-feature android:name="android.hardware.usb.host" />
+27-->/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/AndroidManifest.xml:14:5-62
+27-->/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/AndroidManifest.xml:14:19-59
+28
+29    <application
+29-->/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/AndroidManifest.xml:19:5-100:19
+30        android:allowBackup="true"
+30-->/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/AndroidManifest.xml:21:9-35
+31        android:debuggable="true"
+32        android:extractNativeLibs="true"
+33        android:icon="@mipmap/ic_launcher"
+33-->/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/AndroidManifest.xml:22:9-43
+34        android:label="@string/app_name"
+34-->/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/AndroidManifest.xml:23:9-41
+35        android:largeHeap="true"
+35-->/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/AndroidManifest.xml:25:9-33
+36        android:requestLegacyExternalStorage="true"
+36-->/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/AndroidManifest.xml:27:9-52
+37        android:roundIcon="@mipmap/ic_launcher_round"
+37-->/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/AndroidManifest.xml:24:9-54
+38        android:supportsRtl="true"
+38-->/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/AndroidManifest.xml:26:9-35
+39        android:testOnly="true"
+40        android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+40-->/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/AndroidManifest.xml:20:9-65
+41        <activity
+41-->/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/AndroidManifest.xml:29:9-40:20
+42            android:name="humer.UvcCamera.Main"
+42-->/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/AndroidManifest.xml:29:19-54
+43            android:exported="true" >
+43-->/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/AndroidManifest.xml:30:13-36
+44            <intent-filter>
+44-->/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/AndroidManifest.xml:31:13-33:29
+45                <action android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED" />
+45-->/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/AndroidManifest.xml:32:17-89
+45-->/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/AndroidManifest.xml:32:25-87
+46            </intent-filter>
+47
+48            <meta-data
+48-->/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/AndroidManifest.xml:34:13-126
+49                android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED"
+49-->/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/AndroidManifest.xml:34:24-86
+50                android:resource="@xml/device_filter" />
+50-->/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/AndroidManifest.xml:34:87-124
+51
+52            <intent-filter>
+52-->/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/AndroidManifest.xml:35:13-38:29
+53                <action android:name="android.intent.action.MAIN" />
+53-->/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/AndroidManifest.xml:36:17-69
+53-->/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/AndroidManifest.xml:36:25-66
+54
+55                <category android:name="android.intent.category.LAUNCHER" />
+55-->/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/AndroidManifest.xml:37:17-77
+55-->/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/AndroidManifest.xml:37:27-74
+56            </intent-filter>
+57        </activity>
+58        <activity
+58-->/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/AndroidManifest.xml:41:9-43:20
+59            android:name="humer.UvcCamera.PrivacyPolicyActivity"
+59-->/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/AndroidManifest.xml:41:19-71
+60            android:exported="true" >
+60-->/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/AndroidManifest.xml:42:13-36
+61        </activity>
+62        <activity
+62-->/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/AndroidManifest.xml:44:9-46:20
+63            android:name="humer.UvcCamera.ReadMeActivity"
+63-->/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/AndroidManifest.xml:44:19-64
+64            android:exported="true" >
+64-->/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/AndroidManifest.xml:45:13-36
+65        </activity>
+66        <activity
+66-->/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/AndroidManifest.xml:47:9-54:20
+67            android:name="humer.UvcCamera.StartIsoStreamActivityUsbIso"
+67-->/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/AndroidManifest.xml:47:19-78
+68            android:exported="true" >
+68-->/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/AndroidManifest.xml:48:13-36
+69            <intent-filter>
+69-->/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/AndroidManifest.xml:49:13-53:29
+70                <category android:name="android.intent.category.LAUNCHER" />
+70-->/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/AndroidManifest.xml:37:17-77
+70-->/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/AndroidManifest.xml:37:27-74
+71
+72                <action android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED" />
+72-->/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/AndroidManifest.xml:32:17-89
+72-->/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/AndroidManifest.xml:32:25-87
+73                <action android:name="android.hardware.usb.action.USB_DEVICE_DETACHED" />
+73-->/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/AndroidManifest.xml:52:17-90
+73-->/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/AndroidManifest.xml:52:25-87
+74            </intent-filter>
+75        </activity>
+76        <activity
+76-->/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/AndroidManifest.xml:55:9-63:20
+77            android:name="humer.UvcCamera.StartIsoStreamActivityUvc"
+77-->/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/AndroidManifest.xml:55:19-75
+78            android:configChanges="orientation|screenSize|keyboardHidden"
+78-->/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/AndroidManifest.xml:56:13-74
+79            android:exported="true" >
+79-->/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/AndroidManifest.xml:57:13-36
+80            <intent-filter>
+80-->/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/AndroidManifest.xml:49:13-53:29
+81                <category android:name="android.intent.category.LAUNCHER" />
+81-->/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/AndroidManifest.xml:37:17-77
+81-->/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/AndroidManifest.xml:37:27-74
+82
+83                <action android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED" />
+83-->/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/AndroidManifest.xml:32:17-89
+83-->/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/AndroidManifest.xml:32:25-87
+84                <action android:name="android.hardware.usb.action.USB_DEVICE_DETACHED" />
+84-->/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/AndroidManifest.xml:52:17-90
+84-->/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/AndroidManifest.xml:52:25-87
+85            </intent-filter>
+86        </activity>
+87        <activity
+87-->/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/AndroidManifest.xml:64:9-72:20
+88            android:name="humer.UvcCamera.SetUpTheUsbDeviceUsbIso"
+88-->/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/AndroidManifest.xml:64:19-73
+89            android:configChanges="orientation|screenSize|keyboardHidden"
+89-->/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/AndroidManifest.xml:65:13-74
+90            android:exported="true" >
+90-->/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/AndroidManifest.xml:66:13-36
+91            <intent-filter>
+91-->/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/AndroidManifest.xml:49:13-53:29
+92                <category android:name="android.intent.category.LAUNCHER" />
+92-->/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/AndroidManifest.xml:37:17-77
+92-->/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/AndroidManifest.xml:37:27-74
+93
+94                <action android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED" />
+94-->/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/AndroidManifest.xml:32:17-89
+94-->/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/AndroidManifest.xml:32:25-87
+95                <action android:name="android.hardware.usb.action.USB_DEVICE_DETACHED" />
+95-->/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/AndroidManifest.xml:52:17-90
+95-->/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/AndroidManifest.xml:52:25-87
+96            </intent-filter>
+97        </activity>
+98        <activity
+98-->/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/AndroidManifest.xml:73:9-80:20
+99            android:name="humer.UvcCamera.SetUpTheUsbDeviceUvc"
+99-->/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/AndroidManifest.xml:73:19-70
+100            android:exported="true" >
+100-->/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/AndroidManifest.xml:74:13-36
+101            <intent-filter>
+101-->/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/AndroidManifest.xml:49:13-53:29
+102                <category android:name="android.intent.category.LAUNCHER" />
+102-->/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/AndroidManifest.xml:37:17-77
+102-->/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/AndroidManifest.xml:37:27-74
+103
+104                <action android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED" />
+104-->/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/AndroidManifest.xml:32:17-89
+104-->/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/AndroidManifest.xml:32:25-87
+105                <action android:name="android.hardware.usb.action.USB_DEVICE_DETACHED" />
+105-->/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/AndroidManifest.xml:52:17-90
+105-->/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/AndroidManifest.xml:52:25-87
+106            </intent-filter>
+107        </activity>
+108        <activity
+108-->/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/AndroidManifest.xml:81:9-89:20
+109            android:name="humer.UvcCamera.AutomaticDetection.LibUsb_AutoDetect"
+109-->/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/AndroidManifest.xml:81:19-86
+110            android:exported="true"
+110-->/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/AndroidManifest.xml:83:13-36
+111            android:theme="@style/Theme.Transparent" >
+111-->/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/AndroidManifest.xml:82:13-53
+112            <intent-filter>
+112-->/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/AndroidManifest.xml:49:13-53:29
+113                <category android:name="android.intent.category.LAUNCHER" />
+113-->/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/AndroidManifest.xml:37:17-77
+113-->/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/AndroidManifest.xml:37:27-74
+114
+115                <action android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED" />
+115-->/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/AndroidManifest.xml:32:17-89
+115-->/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/AndroidManifest.xml:32:25-87
+116                <action android:name="android.hardware.usb.action.USB_DEVICE_DETACHED" />
+116-->/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/AndroidManifest.xml:52:17-90
+116-->/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/AndroidManifest.xml:52:25-87
+117            </intent-filter>
+118        </activity>
+119        <activity
+119-->/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/AndroidManifest.xml:90:9-99:20
+120            android:name="humer.UvcCamera.AutomaticDetection.Jna_AutoDetect"
+120-->/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/AndroidManifest.xml:90:19-83
+121            android:exported="true"
+121-->/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/AndroidManifest.xml:92:13-36
+122            android:theme="@style/Theme.Transparent" >
+122-->/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/AndroidManifest.xml:91:13-53
+123            <intent-filter>
+123-->/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/AndroidManifest.xml:49:13-53:29
+124                <category android:name="android.intent.category.LAUNCHER" />
+124-->/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/AndroidManifest.xml:37:17-77
+124-->/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/AndroidManifest.xml:37:27-74
+125
+126                <action android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED" />
+126-->/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/AndroidManifest.xml:32:17-89
+126-->/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/AndroidManifest.xml:32:25-87
+127                <action android:name="android.hardware.usb.action.USB_DEVICE_DETACHED" />
+127-->/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/AndroidManifest.xml:52:17-90
+127-->/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/AndroidManifest.xml:52:25-87
+128            </intent-filter>
+129        </activity>
+130
+131        <meta-data
+131-->[com.android.support:design:26.1.0] /Users/edoardo/.gradle/caches/transforms-4/242ef2ed213423fae3484add957a5a42/transformed/design-26.1.0/AndroidManifest.xml:26:9-28:38
+132            android:name="android.support.VERSION"
+132-->[com.android.support:design:26.1.0] /Users/edoardo/.gradle/caches/transforms-4/242ef2ed213423fae3484add957a5a42/transformed/design-26.1.0/AndroidManifest.xml:27:13-51
+133            android:value="26.1.0" />
+133-->[com.android.support:design:26.1.0] /Users/edoardo/.gradle/caches/transforms-4/242ef2ed213423fae3484add957a5a42/transformed/design-26.1.0/AndroidManifest.xml:28:13-35
+134        <meta-data
+134-->[android.arch.lifecycle:runtime:1.0.0] /Users/edoardo/.gradle/caches/transforms-4/b9f861bd6ececc5966eadca320929c59/transformed/runtime-1.0.0/AndroidManifest.xml:25:9-27:47
+135            android:name="android.arch.lifecycle.VERSION"
+135-->[android.arch.lifecycle:runtime:1.0.0] /Users/edoardo/.gradle/caches/transforms-4/b9f861bd6ececc5966eadca320929c59/transformed/runtime-1.0.0/AndroidManifest.xml:26:13-58
+136            android:value="27.0.0-SNAPSHOT" />
+136-->[android.arch.lifecycle:runtime:1.0.0] /Users/edoardo/.gradle/caches/transforms-4/b9f861bd6ececc5966eadca320929c59/transformed/runtime-1.0.0/AndroidManifest.xml:27:13-44
+137    </application>
+138
+139</manifest>

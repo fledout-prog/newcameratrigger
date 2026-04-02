@@ -1,0 +1,192 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/build/intermediates/cxx/Debug/4y6k3k1w/obj/arm64-v8a/testlibusb"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_libraries",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libusb/cmake/CMakeLists.txt",
+			"CMakeLists.txt",
+			"/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libuvc/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 133,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 134,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 73,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 74,
+				"parent" : 3
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 51,
+				"parent" : 6
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -g -DUVC_DEBUGGING -fPIE"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 4,
+					"path" : "/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libUvc_Support/../libyuv/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libUvc_Support/../libyuv/include/libyuv"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libuvc/include"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/.cxx/Debug/4y6k3k1w/arm64-v8a/preview/uvc/include"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libuvc/../libusb/libusb.h"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libusb/cmake/../libusb"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/.cxx/Debug/4y6k3k1w/arm64-v8a/preview/uvc/usb1.0"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libusb/cmake/android"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			],
+			"sysroot" : 
+			{
+				"path" : "/Users/edoardo/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot"
+			}
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "usb1.0::@a837cc0b56d261456849"
+		}
+	],
+	"id" : "testlibusb::@a837cc0b56d261456849",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -g -DUVC_DEBUGGING",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/build/intermediates/cxx/Debug/4y6k3k1w/obj/arm64-v8a/libusb1.0.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-latomic -lm",
+				"role" : "libraries"
+			}
+		],
+		"language" : "C",
+		"sysroot" : 
+		{
+			"path" : "/Users/edoardo/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot"
+		}
+	},
+	"name" : "testlibusb",
+	"nameOnDisk" : "testlibusb",
+	"paths" : 
+	{
+		"build" : "preview/uvc/usb1.0",
+		"source" : "/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libusb/cmake"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libusb/tests/testlib.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libusb/tests/stress.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

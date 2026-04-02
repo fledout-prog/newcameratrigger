@@ -1,0 +1,524 @@
+ninja: Entering directory `/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/.cxx/Debug/4y6k3k1w/arm64-v8a'
+[1/177] Building CXX object yuv/CMakeFiles/yuv.dir/source/compare_mmi.cc.o
+[2/177] Building CXX object yuv/CMakeFiles/yuv.dir/source/compare_gcc.cc.o
+[3/177] Building CXX object yuv/CMakeFiles/yuv.dir/source/compare_neon.cc.o
+[4/177] Building CXX object yuv/CMakeFiles/yuv.dir/source/compare_common.cc.o
+[5/177] Building CXX object yuv/CMakeFiles/yuv.dir/source/compare_msa.cc.o
+[6/177] Building CXX object yuv/CMakeFiles/yuv.dir/source/mjpeg_decoder.cc.o
+[7/177] Building CXX object yuv/CMakeFiles/yuv.dir/source/compare_win.cc.o
+[8/177] Building CXX object yuv/CMakeFiles/yuv.dir/source/compare_neon64.cc.o
+[9/177] Building CXX object yuv/CMakeFiles/yuv.dir/source/convert_from.cc.o
+[10/177] Building CXX object yuv/CMakeFiles/yuv.dir/source/convert_from_argb.cc.o
+[11/177] Building CXX object yuv/CMakeFiles/yuv.dir/source/convert_jpeg.cc.o
+[12/177] Building CXX object yuv/CMakeFiles/yuv.dir/source/convert_to_argb.cc.o
+[13/177] Building CXX object yuv/CMakeFiles/yuv.dir/source/convert.cc.o
+[14/177] Building CXX object yuv/CMakeFiles/yuv.dir/source/convert_argb.cc.o
+[15/177] Building CXX object yuv/CMakeFiles/yuv.dir/source/compare.cc.o
+[16/177] Building CXX object yuv/CMakeFiles/yuv.dir/source/convert_to_i420.cc.o
+[17/177] Building CXX object CMakeFiles/Uvc_Support.dir/uvc_support.cpp.o
+In file included from /Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libUvc_Support/uvc_support.cpp:5:
+/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libUvc_Support/uvc_support.h:2:1: warning: '/*' within block comment [-Wcomment]
+/*
+^
+/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libUvc_Support/uvc_support.h:330:10: warning: 'LOG_TAG' macro redefined [-Wmacro-redefined]
+#define  LOG_TAG    "From libuvc_support"
+         ^
+/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libUvc_Support/../libuvc/include/libuvc/localdefines.h:31:9: note: previous definition is here
+#define LOG_TAG "libUVCCamera"
+        ^
+In file included from /Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libUvc_Support/uvc_support.cpp:5:
+/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libUvc_Support/uvc_support.h:331:10: warning: 'LOGD' macro redefined [-Wmacro-redefined]
+#define  LOGD(...)  __android_log_print(ANDROID_LOG_DEBUG, LOG_TAG, __VA_ARGS__)
+         ^
+/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libUvc_Support/../libuvc/include/libuvc/utilbase.h:66:10: note: previous definition is here
+        #define LOGD(FMT, ...) __android_log_print(ANDROID_LOG_DEBUG, LOG_TAG, "[%d*%s:%d:%s]:" FMT,    \
+                ^
+In file included from /Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libUvc_Support/uvc_support.cpp:5:
+/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libUvc_Support/uvc_support.h:332:10: warning: 'LOGE' macro redefined [-Wmacro-redefined]
+#define  LOGE(...)  __android_log_print(ANDROID_LOG_ERROR, LOG_TAG, __VA_ARGS__)
+         ^
+/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libUvc_Support/../libuvc/include/libuvc/utilbase.h:72:10: note: previous definition is here
+        #define LOGE(FMT, ...) __android_log_print(ANDROID_LOG_ERROR, LOG_TAG, "[%d*%s:%d:%s]:" FMT,    \
+                ^
+/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libUvc_Support/uvc_support.cpp:62:54: warning: format specifies type 'int' but the argument has type 'long' [-Wformat]
+    LOGD("From C++\ncamera->preview_pointer = %d\n", camera->preview_pointer);
+                                              ~~     ^~~~~~~~~~~~~~~~~~~~~~~
+                                              %ld
+/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libUvc_Support/uvc_support.h:331:69: note: expanded from macro 'LOGD'
+#define  LOGD(...)  __android_log_print(ANDROID_LOG_DEBUG, LOG_TAG, __VA_ARGS__)
+                                                                    ^~~~~~~~~~~
+5 warnings generated.
+[18/177] Building CXX object yuv/CMakeFiles/yuv.dir/source/rotate_any.cc.o
+[19/177] Building CXX object yuv/CMakeFiles/yuv.dir/source/mjpeg_validate.cc.o
+[20/177] Building CXX object yuv/CMakeFiles/yuv.dir/source/cpu_id.cc.o
+[21/177] Building CXX object yuv/CMakeFiles/yuv.dir/source/rotate_common.cc.o
+[22/177] Building CXX object yuv/CMakeFiles/yuv.dir/source/rotate.cc.o
+[23/177] Building CXX object yuv/CMakeFiles/yuv.dir/source/rotate_gcc.cc.o
+[24/177] Building CXX object yuv/CMakeFiles/yuv.dir/source/rotate_mmi.cc.o
+[25/177] Building CXX object yuv/CMakeFiles/yuv.dir/source/rotate_argb.cc.o
+[26/177] Building CXX object yuv/CMakeFiles/yuv.dir/source/rotate_msa.cc.o
+[27/177] Building CXX object yuv/CMakeFiles/yuv.dir/source/rotate_win.cc.o
+[28/177] Building CXX object yuv/CMakeFiles/yuv.dir/source/rotate_neon.cc.o
+[29/177] Building CXX object yuv/CMakeFiles/yuv.dir/source/rotate_neon64.cc.o
+[30/177] Building CXX object yuv/CMakeFiles/yuv.dir/source/row_gcc.cc.o
+[31/177] Building CXX object yuv/CMakeFiles/yuv.dir/source/row_msa.cc.o
+[32/177] Building CXX object yuv/CMakeFiles/yuv.dir/source/row_mmi.cc.o
+[33/177] Building CXX object yuv/CMakeFiles/yuv.dir/source/row_neon.cc.o
+[34/177] Building CXX object yuv/CMakeFiles/yuv.dir/source/row_win.cc.o
+[35/177] Building CXX object yuv/CMakeFiles/yuv.dir/source/scale_any.cc.o
+[36/177] Building CXX object yuv/CMakeFiles/yuv.dir/source/scale_argb.cc.o
+[37/177] Building CXX object yuv/CMakeFiles/yuv.dir/source/scale_gcc.cc.o
+[38/177] Building CXX object yuv/CMakeFiles/yuv.dir/source/scale_mmi.cc.o
+[39/177] Building CXX object yuv/CMakeFiles/yuv.dir/source/scale_msa.cc.o
+[40/177] Building CXX object yuv/CMakeFiles/yuv.dir/source/scale_neon.cc.o
+[41/177] Building C object CMakeFiles/Uvc_Support.dir/libuvc_support.c.o
+In file included from /Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libUvc_Support/libuvc_support.c:23:
+/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libUvc_Support/uvc_support.h:2:1: warning: '/*' within block comment [-Wcomment]
+/*
+^
+/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libUvc_Support/uvc_support.h:330:10: warning: 'LOG_TAG' macro redefined [-Wmacro-redefined]
+#define  LOG_TAG    "From libuvc_support"
+         ^
+/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libUvc_Support/../libuvc/include/libuvc/localdefines.h:31:9: note: previous definition is here
+#define LOG_TAG "libUVCCamera"
+        ^
+In file included from /Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libUvc_Support/libuvc_support.c:23:
+/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libUvc_Support/uvc_support.h:331:10: warning: 'LOGD' macro redefined [-Wmacro-redefined]
+#define  LOGD(...)  __android_log_print(ANDROID_LOG_DEBUG, LOG_TAG, __VA_ARGS__)
+         ^
+/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libUvc_Support/../libuvc/include/libuvc/utilbase.h:66:10: note: previous definition is here
+        #define LOGD(FMT, ...) __android_log_print(ANDROID_LOG_DEBUG, LOG_TAG, "[%d*%s:%d:%s]:" FMT,    \
+                ^
+In file included from /Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libUvc_Support/libuvc_support.c:23:
+/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libUvc_Support/uvc_support.h:332:10: warning: 'LOGE' macro redefined [-Wmacro-redefined]
+#define  LOGE(...)  __android_log_print(ANDROID_LOG_ERROR, LOG_TAG, __VA_ARGS__)
+         ^
+/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libUvc_Support/../libuvc/include/libuvc/utilbase.h:72:10: note: previous definition is here
+        #define LOGE(FMT, ...) __android_log_print(ANDROID_LOG_ERROR, LOG_TAG, "[%d*%s:%d:%s]:" FMT,    \
+                ^
+/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libUvc_Support/libuvc_support.c:457:1: warning: non-void function does not return a value [-Wreturn-type]
+}
+^
+/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libUvc_Support/libuvc_support.c:525:1: warning: non-void function does not return a value [-Wreturn-type]
+}
+^
+/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libUvc_Support/libuvc_support.c:538:25: warning: format specifies type 'int' but the argument has type 'size_t' (aka 'unsigned long') [-Wformat]
+    LOGD("length = %d", length);
+                   ~~   ^~~~~~
+                   %zu
+/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libUvc_Support/uvc_support.h:331:69: note: expanded from macro 'LOGD'
+#define  LOGD(...)  __android_log_print(ANDROID_LOG_DEBUG, LOG_TAG, __VA_ARGS__)
+                                                                    ^~~~~~~~~~~
+/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libUvc_Support/libuvc_support.c:866:27: warning: sizeof on array function parameter will return size of 'int *' instead of 'int[]' [-Wsizeof-array-argument]
+    if(memcmp(a, b, sizeof(a)) == 0) return true;
+                          ^
+/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libUvc_Support/libuvc_support.c:865:24: note: declared here
+bool compareArrays(int a[], int b[]) {
+                       ^
+/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libUvc_Support/libuvc_support.c:866:28: warning: 'memcmp' call operates on objects of type 'int' while the size is based on a different type 'int *' [-Wsizeof-pointer-memaccess]
+    if(memcmp(a, b, sizeof(a)) == 0) return true;
+              ~            ^
+/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libUvc_Support/libuvc_support.c:866:28: note: did you mean to dereference the argument to 'sizeof' (and multiply it by the number of elements)?
+    if(memcmp(a, b, sizeof(a)) == 0) return true;
+                           ^
+/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libUvc_Support/libuvc_support.c:879:66: warning: adding 'int' to a string does not append to the string [-Wstring-plus-int]
+            LOGD("Your entered 'Camera Frame Index' Values is: " + initStreamingParmsIntArray[1], "\n");
+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libUvc_Support/uvc_support.h:331:69: note: expanded from macro 'LOGD'
+#define  LOGD(...)  __android_log_print(ANDROID_LOG_DEBUG, LOG_TAG, __VA_ARGS__)
+                                                                    ^~~~~~~~~~~
+/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libUvc_Support/libuvc_support.c:879:66: note: use array indexing to silence this warning
+            LOGD("Your entered 'Camera Frame Index' Values is: " + initStreamingParmsIntArray[1], "\n");
+                                                                 ^
+                 &                                               [
+/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libUvc_Support/uvc_support.h:331:69: note: expanded from macro 'LOGD'
+#define  LOGD(...)  __android_log_print(ANDROID_LOG_DEBUG, LOG_TAG, __VA_ARGS__)
+                                                                    ^
+/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libUvc_Support/libuvc_support.c:909:23: warning: cast to smaller integer type 'int' from 'void *' [-Wvoid-pointer-to-int-cast]
+        } else return (int) NULL;
+                      ^~~~~~~~~~
+/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libUvc_Support/libuvc_support.c:1141:22: warning: assigning to 'unsigned char *' from 'char *' converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+    UYVY_frame_array = (char *) malloc (num_bytes);
+                     ^ ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libUvc_Support/libuvc_support.c:1185:22: warning: assigning to 'unsigned char *' from 'char *' converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+    YUY2_frame_array = (char *) malloc (num_bytes);
+                     ^ ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libUvc_Support/libuvc_support.c:1227:12: warning: incompatible pointer types returning 'uvc_camera_t *' (aka 'struct uvc_camera *') from a function with result type 'struct uvc_camera_t *' [-Wincompatible-pointer-types]
+    return uvc_camera;
+           ^~~~~~~~~~
+/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libUvc_Support/libuvc_support.c:1335:42: warning: format specifies type 'int' but the argument has type 'size_t' (aka 'unsigned long') [-Wformat]
+        LOGD("frame->actual_bytes = %d", frame->actual_bytes);
+                                    ~~   ^~~~~~~~~~~~~~~~~~~
+                                    %zu
+/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libUvc_Support/uvc_support.h:331:69: note: expanded from macro 'LOGD'
+#define  LOGD(...)  __android_log_print(ANDROID_LOG_DEBUG, LOG_TAG, __VA_ARGS__)
+                                                                    ^~~~~~~~~~~
+/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libUvc_Support/libuvc_support.c:1343:42: warning: format specifies type 'int' but the argument has type 'size_t' (aka 'unsigned long') [-Wformat]
+        LOGD("frame->actual_bytes = %d", frame->actual_bytes);
+                                    ~~   ^~~~~~~~~~~~~~~~~~~
+                                    %zu
+/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libUvc_Support/uvc_support.h:331:69: note: expanded from macro 'LOGD'
+#define  LOGD(...)  __android_log_print(ANDROID_LOG_DEBUG, LOG_TAG, __VA_ARGS__)
+                                                                    ^~~~~~~~~~~
+/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libUvc_Support/libuvc_support.c:1400:42: warning: format specifies type 'int' but the argument has type 'size_t' (aka 'unsigned long') [-Wformat]
+        LOGD("frame->actual_bytes = %d", frame->actual_bytes);
+                                    ~~   ^~~~~~~~~~~~~~~~~~~
+                                    %zu
+/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libUvc_Support/uvc_support.h:331:69: note: expanded from macro 'LOGD'
+#define  LOGD(...)  __android_log_print(ANDROID_LOG_DEBUG, LOG_TAG, __VA_ARGS__)
+                                                                    ^~~~~~~~~~~
+/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libUvc_Support/libuvc_support.c:1405:42: warning: format specifies type 'int' but the argument has type 'size_t' (aka 'unsigned long') [-Wformat]
+        LOGD("frame->actual_bytes = %d", frame->actual_bytes);
+                                    ~~   ^~~~~~~~~~~~~~~~~~~
+                                    %zu
+/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libUvc_Support/uvc_support.h:331:69: note: expanded from macro 'LOGD'
+#define  LOGD(...)  __android_log_print(ANDROID_LOG_DEBUG, LOG_TAG, __VA_ARGS__)
+                                                                    ^~~~~~~~~~~
+/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libUvc_Support/libuvc_support.c:1409:30: warning: incompatible pointer types initializing 'uvc_device_handle_t *' (aka 'struct uvc_device_handle *') with an expression of type 'uvc_stream_handle_t *' (aka 'struct uvc_stream_handle *') [-Wincompatible-pointer-types]
+        uvc_device_handle_t *deviceHandle = (uvc_stream_handle_t *)ptr;
+                             ^              ~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libUvc_Support/libuvc_support.c:1454:47: warning: format specifies type 'int' but the argument has type 'size_t' (aka 'unsigned long') [-Wformat]
+        LOGD("stream_values->activeUrbs: %d", stream_values->activeUrbs);
+                                         ~~   ^~~~~~~~~~~~~~~~~~~~~~~~~
+                                         %zu
+/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libUvc_Support/uvc_support.h:331:69: note: expanded from macro 'LOGD'
+#define  LOGD(...)  __android_log_print(ANDROID_LOG_DEBUG, LOG_TAG, __VA_ARGS__)
+                                                                    ^~~~~~~~~~~
+/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libUvc_Support/libuvc_support.c:1455:47: warning: format specifies type 'int' but the argument has type 'size_t' (aka 'unsigned long') [-Wformat]
+        LOGD("stream_values->altsetting: %d", stream_values->altsetting);
+                                         ~~   ^~~~~~~~~~~~~~~~~~~~~~~~~
+                                         %zu
+/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libUvc_Support/uvc_support.h:331:69: note: expanded from macro 'LOGD'
+#define  LOGD(...)  __android_log_print(ANDROID_LOG_DEBUG, LOG_TAG, __VA_ARGS__)
+                                                                    ^~~~~~~~~~~
+/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libUvc_Support/libuvc_support.c:1456:54: warning: format specifies type 'int' but the argument has type 'size_t' (aka 'unsigned long') [-Wformat]
+        LOGD("stream_values->packetsPerRequest: %d", stream_values->packetsPerRequest);
+                                                ~~   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                                                %zu
+/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libUvc_Support/uvc_support.h:331:69: note: expanded from macro 'LOGD'
+#define  LOGD(...)  __android_log_print(ANDROID_LOG_DEBUG, LOG_TAG, __VA_ARGS__)
+                                                                    ^~~~~~~~~~~
+/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libUvc_Support/libuvc_support.c:1457:50: warning: format specifies type 'int' but the argument has type 'size_t' (aka 'unsigned long') [-Wformat]
+        LOGD("stream_values->maxPacketSize: %d", stream_values->maxPacketSize);
+                                            ~~   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                                            %zu
+/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libUvc_Support/uvc_support.h:331:69: note: expanded from macro 'LOGD'
+#define  LOGD(...)  __android_log_print(ANDROID_LOG_DEBUG, LOG_TAG, __VA_ARGS__)
+                                                                    ^~~~~~~~~~~
+/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libUvc_Support/libuvc_support.c:1518:54: warning: format specifies type 'int' but the argument has type 'long' [-Wformat]
+    LOGD("From C reate:\ncam->preview_pointer = %d", cam->preview_pointer);
+                                                ~~   ^~~~~~~~~~~~~~~~~~~~
+                                                %ld
+/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libUvc_Support/uvc_support.h:331:69: note: expanded from macro 'LOGD'
+#define  LOGD(...)  __android_log_print(ANDROID_LOG_DEBUG, LOG_TAG, __VA_ARGS__)
+                                                                    ^~~~~~~~~~~
+24 warnings generated.
+[42/177] Building CXX object yuv/CMakeFiles/yuv.dir/source/scale.cc.o
+[43/177] Building CXX object yuv/CMakeFiles/yuv.dir/source/video_common.cc.o
+[44/177] Building CXX object yuv/CMakeFiles/yuv.dir/source/scale_neon64.cc.o
+[45/177] Building CXX object yuv/CMakeFiles/yuv.dir/source/scale_win.cc.o
+[46/177] Building CXX object yuv/CMakeFiles/yuv.dir/source/scale_uv.cc.o
+[47/177] Building CXX object yuv/CMakeFiles/yuv.dir/source/planar_functions.cc.o
+[48/177] Building CXX object yuv/CMakeFiles/yuv.dir/source/scale_common.cc.o
+[49/177] Building CXX object yuv/CMakeFiles/yuv_shared.dir/source/compare_common.cc.o
+[50/177] Building CXX object yuv/CMakeFiles/yuv_shared.dir/source/compare_gcc.cc.o
+[51/177] Building CXX object yuv/CMakeFiles/yuv_shared.dir/source/compare.cc.o
+[52/177] Building CXX object yuv/CMakeFiles/yuv_shared.dir/source/compare_mmi.cc.o
+[53/177] Building CXX object yuv/CMakeFiles/yuv_shared.dir/source/compare_neon64.cc.o
+[54/177] Building CXX object yuv/CMakeFiles/yuv_shared.dir/source/compare_msa.cc.o
+[55/177] Building CXX object yuv/CMakeFiles/yuv_shared.dir/source/compare_neon.cc.o
+[56/177] Building CXX object yuv/CMakeFiles/yuv_shared.dir/source/mjpeg_decoder.cc.o
+[57/177] Building CXX object yuv/CMakeFiles/yuv_shared.dir/source/compare_win.cc.o
+[58/177] Building CXX object yuv/CMakeFiles/yuv.dir/source/row_neon64.cc.o
+[59/177] Building CXX object yuv/CMakeFiles/yuv_shared.dir/source/convert_jpeg.cc.o
+[60/177] Building CXX object yuv/CMakeFiles/yuv_shared.dir/source/convert_from.cc.o
+[61/177] Building CXX object yuv/CMakeFiles/yuv_shared.dir/source/cpu_id.cc.o
+[62/177] Building CXX object yuv/CMakeFiles/yuv_shared.dir/source/convert_to_i420.cc.o
+[63/177] Building CXX object yuv/CMakeFiles/yuv_shared.dir/source/rotate_any.cc.o
+[64/177] Building CXX object yuv/CMakeFiles/yuv_shared.dir/source/convert_to_argb.cc.o
+[65/177] Building CXX object yuv/CMakeFiles/yuv.dir/source/row_common.cc.o
+[66/177] Building CXX object yuv/CMakeFiles/yuv_shared.dir/source/convert.cc.o
+[67/177] Building CXX object yuv/CMakeFiles/yuv_shared.dir/source/convert_from_argb.cc.o
+[68/177] Building CXX object yuv/CMakeFiles/yuv_shared.dir/source/mjpeg_validate.cc.o
+[69/177] Building CXX object yuv/CMakeFiles/yuv_shared.dir/source/rotate_common.cc.o
+[70/177] Building CXX object yuv/CMakeFiles/yuv_shared.dir/source/rotate_gcc.cc.o
+[71/177] Building CXX object yuv/CMakeFiles/yuv_shared.dir/source/rotate_msa.cc.o
+[72/177] Building CXX object yuv/CMakeFiles/yuv_shared.dir/source/rotate_argb.cc.o
+[73/177] Building CXX object yuv/CMakeFiles/yuv_shared.dir/source/rotate.cc.o
+[74/177] Building CXX object yuv/CMakeFiles/yuv_shared.dir/source/rotate_mmi.cc.o
+[75/177] Building CXX object yuv/CMakeFiles/yuv_shared.dir/source/rotate_neon.cc.o
+[76/177] Building CXX object yuv/CMakeFiles/yuv_shared.dir/source/rotate_neon64.cc.o
+[77/177] Building CXX object yuv/CMakeFiles/yuv_shared.dir/source/rotate_win.cc.o
+[78/177] Building CXX object yuv/CMakeFiles/yuv_shared.dir/source/row_gcc.cc.o
+[79/177] Building CXX object yuv/CMakeFiles/yuv_shared.dir/source/row_msa.cc.o
+[80/177] Building CXX object yuv/CMakeFiles/yuv_shared.dir/source/row_mmi.cc.o
+[81/177] Building CXX object yuv/CMakeFiles/yuv_shared.dir/source/row_neon.cc.o
+[82/177] Building CXX object yuv/CMakeFiles/yuv_shared.dir/source/scale_any.cc.o
+[83/177] Building CXX object yuv/CMakeFiles/yuv_shared.dir/source/row_win.cc.o
+[84/177] Building CXX object yuv/CMakeFiles/yuv_shared.dir/source/scale_argb.cc.o
+[85/177] Building CXX object yuv/CMakeFiles/yuv_shared.dir/source/planar_functions.cc.o
+[86/177] Building CXX object yuv/CMakeFiles/yuv.dir/source/row_any.cc.o
+[87/177] Building CXX object yuv/CMakeFiles/yuv_shared.dir/source/convert_argb.cc.o
+[88/177] Building CXX object yuv/CMakeFiles/yuv_shared.dir/source/row_neon64.cc.o
+[89/177] Building CXX object yuv/CMakeFiles/yuv_shared.dir/source/scale.cc.o
+[90/177] Building CXX object yuv/CMakeFiles/yuv_shared.dir/source/scale_gcc.cc.o
+[91/177] Building CXX object yuv/CMakeFiles/yuv_shared.dir/source/scale_msa.cc.o
+[92/177] Building CXX object yuv/CMakeFiles/yuv_shared.dir/source/scale_mmi.cc.o
+[93/177] Building CXX object yuv/CMakeFiles/yuv_shared.dir/source/scale_neon.cc.o
+[94/177] Building CXX object yuv/CMakeFiles/yuv_shared.dir/source/video_common.cc.o
+[95/177] Building CXX object yuv/CMakeFiles/yuv_shared.dir/source/scale_win.cc.o
+[96/177] Building CXX object yuv/CMakeFiles/yuv_shared.dir/source/scale_neon64.cc.o
+[97/177] Building CXX object yuv/CMakeFiles/yuv_shared.dir/source/scale_common.cc.o
+[98/177] Building CXX object yuv/CMakeFiles/yuv_shared.dir/source/scale_uv.cc.o
+[99/177] Building CXX object yuv/CMakeFiles/yuvconvert.dir/util/yuvconvert.cc.o
+[100/177] Building C object preview/uvc/CMakeFiles/uvc.dir/src/init.c.o
+In file included from /Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libuvc/src/init.c:83:
+/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libuvc/include/libuvc/libuvc_internal.h:19:9: warning: 'UVC_DEBUGGING' macro redefined [-Wmacro-redefined]
+#define UVC_DEBUGGING
+        ^
+<command line>:4:9: note: previous definition is here
+#define UVC_DEBUGGING 1
+        ^
+1 warning generated.
+[101/177] Building C object preview/uvc/CMakeFiles/uvc.dir/src/diag.c.o
+In file included from /Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libuvc/src/diag.c:46:
+/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libuvc/include/libuvc/libuvc_internal.h:19:9: warning: 'UVC_DEBUGGING' macro redefined [-Wmacro-redefined]
+#define UVC_DEBUGGING
+        ^
+<command line>:4:9: note: previous definition is here
+#define UVC_DEBUGGING 1
+        ^
+1 warning generated.
+[102/177] Building C object preview/uvc/CMakeFiles/uvc.dir/src/misc.c.o
+[103/177] Building C object preview/uvc/CMakeFiles/uvc.dir/src/device.c.o
+In file included from /Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libuvc/src/device.c:64:
+/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libuvc/include/libuvc/libuvc_internal.h:19:9: warning: 'UVC_DEBUGGING' macro redefined [-Wmacro-redefined]
+#define UVC_DEBUGGING
+        ^
+<command line>:4:9: note: previous definition is here
+#define UVC_DEBUGGING 1
+        ^
+/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libuvc/src/device.c:212:3: warning: expression result unused [-Wunused-value]
+                fd;
+                ^~
+2 warnings generated.
+[104/177] Building C object preview/uvc/usb1.0/CMakeFiles/usb1.0.dir/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libusb/libusb/hotplug.c.o
+[105/177] Building C object preview/uvc/CMakeFiles/uvc.dir/src/ctrl.c.o
+In file included from /Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libuvc/src/ctrl.c:48:
+/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libuvc/include/libuvc/libuvc_internal.h:19:9: warning: 'UVC_DEBUGGING' macro redefined [-Wmacro-redefined]
+#define UVC_DEBUGGING
+        ^
+<command line>:4:9: note: previous definition is here
+#define UVC_DEBUGGING 1
+        ^
+1 warning generated.
+[106/177] Building C object preview/uvc/CMakeFiles/uvc.dir/src/frame-mjpeg.c.o
+In file included from /Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libuvc/src/frame-mjpeg.c:43:
+/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libuvc/include/libuvc/libuvc_internal.h:19:9: warning: 'UVC_DEBUGGING' macro redefined [-Wmacro-redefined]
+#define UVC_DEBUGGING
+        ^
+<command line>:4:9: note: previous definition is here
+#define UVC_DEBUGGING 1
+        ^
+/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libuvc/src/frame-mjpeg.c:577:1: warning: non-void function does not return a value [-Wreturn-type]
+}
+^
+2 warnings generated.
+[107/177] Building CXX object yuv/CMakeFiles/yuv_shared.dir/source/row_common.cc.o
+[108/177] Building C object preview/uvc/CMakeFiles/uvc.dir/src/stream.c.o
+In file included from /Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libuvc/src/stream.c:63:
+/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libuvc/include/libuvc/libuvc_internal.h:19:9: warning: 'UVC_DEBUGGING' macro redefined [-Wmacro-redefined]
+#define UVC_DEBUGGING
+        ^
+<command line>:4:9: note: previous definition is here
+#define UVC_DEBUGGING 1
+        ^
+/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libuvc/src/stream.c:639:39: warning: format specifies type 'int' but the argument has type 'uint8_t *' (aka 'unsigned char *') [-Wformat]
+                                LOGDEB("format->guidFormat = %d", format->guidFormat);
+                                                             ~~   ^~~~~~~~~~~~~~~~~~
+                                                             %s
+/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libuvc/include/libuvc/libuvc.h:21:72: note: expanded from macro 'LOGDEB'
+#define  LOGDEB(...)  __android_log_print(ANDROID_LOG_DEBUG, LOG_TAGS, __VA_ARGS__)  // added Peter Stoiber
+                                                                       ^~~~~~~~~~~
+/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libuvc/src/stream.c:897:8: warning: format specifies type 'int' but the argument has type 'size_t' (aka 'unsigned long') [-Wformat]
+                                   (strmh->got_bytes + data_len), strmh->size_buf);
+                                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libuvc/include/libuvc/libuvc.h:21:72: note: expanded from macro 'LOGDEB'
+#define  LOGDEB(...)  __android_log_print(ANDROID_LOG_DEBUG, LOG_TAGS, __VA_ARGS__)  // added Peter Stoiber
+                                                                       ^~~~~~~~~~~
+/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libuvc/src/stream.c:897:39: warning: format specifies type 'int' but the argument has type 'size_t' (aka 'unsigned long') [-Wformat]
+                                   (strmh->got_bytes + data_len), strmh->size_buf);
+                                                                  ^~~~~~~~~~~~~~~
+/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libuvc/include/libuvc/libuvc.h:21:72: note: expanded from macro 'LOGDEB'
+#define  LOGDEB(...)  __android_log_print(ANDROID_LOG_DEBUG, LOG_TAGS, __VA_ARGS__)  // added Peter Stoiber
+                                                                       ^~~~~~~~~~~
+/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libuvc/src/stream.c:898:51: warning: format specifies type 'int' but the argument has type 'size_t' (aka 'unsigned long') [-Wformat]
+                        LOGDEB("strmh->got_bytes = %d\ndata_len = %d", strmh->got_bytes, data_len);
+                                                   ~~                  ^~~~~~~~~~~~~~~~
+                                                   %zu
+/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libuvc/include/libuvc/libuvc.h:21:72: note: expanded from macro 'LOGDEB'
+#define  LOGDEB(...)  __android_log_print(ANDROID_LOG_DEBUG, LOG_TAGS, __VA_ARGS__)  // added Peter Stoiber
+                                                                       ^~~~~~~~~~~
+/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libuvc/src/stream.c:898:69: warning: format specifies type 'int' but the argument has type 'size_t' (aka 'unsigned long') [-Wformat]
+                        LOGDEB("strmh->got_bytes = %d\ndata_len = %d", strmh->got_bytes, data_len);
+                                                                  ~~                     ^~~~~~~~
+                                                                  %zu
+/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libuvc/include/libuvc/libuvc.h:21:72: note: expanded from macro 'LOGDEB'
+#define  LOGDEB(...)  __android_log_print(ANDROID_LOG_DEBUG, LOG_TAGS, __VA_ARGS__)  // added Peter Stoiber
+                                                                       ^~~~~~~~~~~
+/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libuvc/src/stream.c:1060:104: warning: format specifies type 'int' but the argument has type 'size_t' (aka 'unsigned long') [-Wformat]
+                                if (!(strmh->got_bytes + odd_bytes < strmh->size_buf))  LOGDEB("strmh->got_bytes + odd_bytes = %d", strmh->got_bytes + odd_bytes);
+                                                                                                                               ~~   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                                                                                                                               %zu
+/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libuvc/include/libuvc/libuvc.h:21:72: note: expanded from macro 'LOGDEB'
+#define  LOGDEB(...)  __android_log_print(ANDROID_LOG_DEBUG, LOG_TAGS, __VA_ARGS__)  // added Peter Stoiber
+                                                                       ^~~~~~~~~~~
+/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libuvc/src/stream.c:1345:1: warning: non-void function does not return a value [-Wreturn-type]
+}
+^
+/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libuvc/src/stream.c:1393:1: warning: non-void function does not return a value [-Wreturn-type]
+}
+^
+/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libuvc/src/stream.c:1664:57: warning: format specifies type 'int' but the argument has type 'size_t' (aka 'unsigned long') [-Wformat]
+                    LOGDEB("packets_per_transfer = %d", packets_per_transfer);
+                                                   ~~   ^~~~~~~~~~~~~~~~~~~~
+                                                   %zu
+/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libuvc/include/libuvc/libuvc.h:21:72: note: expanded from macro 'LOGDEB'
+#define  LOGDEB(...)  __android_log_print(ANDROID_LOG_DEBUG, LOG_TAGS, __VA_ARGS__)  // added Peter Stoiber
+                                                                       ^~~~~~~~~~~
+/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libuvc/src/stream.c:1665:62: warning: format specifies type 'int' but the argument has type 'size_t' (aka 'unsigned long') [-Wformat]
+                    LOGDEB("endpoint_bytes_per_packet = %d", endpoint_bytes_per_packet);
+                                                        ~~   ^~~~~~~~~~~~~~~~~~~~~~~~~
+                                                        %zu
+/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libuvc/include/libuvc/libuvc.h:21:72: note: expanded from macro 'LOGDEB'
+#define  LOGDEB(...)  __android_log_print(ANDROID_LOG_DEBUG, LOG_TAGS, __VA_ARGS__)  // added Peter Stoiber
+                                                                       ^~~~~~~~~~~
+/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libuvc/src/stream.c:1666:56: warning: format specifies type 'int' but the argument has type 'size_t' (aka 'unsigned long') [-Wformat]
+                    LOGDEB("total_transfer_size = %d", total_transfer_size);
+                                                  ~~   ^~~~~~~~~~~~~~~~~~~
+                                                  %zu
+/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libuvc/include/libuvc/libuvc.h:21:72: note: expanded from macro 'LOGDEB'
+#define  LOGDEB(...)  __android_log_print(ANDROID_LOG_DEBUG, LOG_TAGS, __VA_ARGS__)  // added Peter Stoiber
+                                                                       ^~~~~~~~~~~
+/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libuvc/src/stream.c:2182:80: warning: format specifies type 'int' but the argument has type 'size_t' (aka 'unsigned long') [-Wformat]
+            } else {LOGDEB ("alt_idx = %d   //   endpoint_byte = %d", alt_idx, endpoint_bytes_per_packet);}
+                                                                 ~~            ^~~~~~~~~~~~~~~~~~~~~~~~~
+                                                                 %zu
+/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libuvc/include/libuvc/libuvc.h:21:72: note: expanded from macro 'LOGDEB'
+#define  LOGDEB(...)  __android_log_print(ANDROID_LOG_DEBUG, LOG_TAGS, __VA_ARGS__)  // added Peter Stoiber
+                                                                       ^~~~~~~~~~~
+/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libuvc/src/stream.c:2190:21: warning: '/*' within block comment [-Wcomment]
+                    /* Transfers will be at most one frame long: Divide the maximum frame size
+                    ^
+/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libuvc/src/stream.c:2196:21: warning: '/*' within block comment [-Wcomment]
+                    /* But keep a reasonable limit: Otherwise we start dropping data *//*
+                    ^
+15 warnings generated.
+[109/177] Building C object preview/uvc/usb1.0/CMakeFiles/usb1.0.dir/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libusb/libusb/core.c.o
+[110/177] Building C object preview/uvc/usb1.0/CMakeFiles/usb1.0.dir/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libusb/libusb/descriptor.c.o
+[111/177] Building C object preview/uvc/usb1.0/CMakeFiles/usb1.0.dir/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libusb/libusb/strerror.c.o
+[112/177] Building C object preview/uvc/usb1.0/CMakeFiles/usb1.0.dir/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libusb/libusb/os/events_posix.c.o
+[113/177] Building C object preview/uvc/usb1.0/CMakeFiles/usb1.0.dir/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libusb/libusb/sync.c.o
+[114/177] Building C object preview/uvc/usb1.0/CMakeFiles/usb1.0.dir/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libusb/libusb/os/threads_posix.c.o
+[115/177] Building C object preview/uvc/usb1.0/CMakeFiles/usb1.0.dir/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libusb/libusb/io.c.o
+[116/177] Building C object preview/uvc/usb1.0/CMakeFiles/testlibusb.dir/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libusb/tests/testlib.c.o
+[117/177] Building CXX object yuv/CMakeFiles/yuv_shared.dir/source/row_any.cc.o
+[118/177] Building C object preview/uvc/usb1.0/CMakeFiles/testlibusb.dir/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libusb/tests/stress.c.o
+[119/177] Building C object preview/uvc/jpeg9/CMakeFiles/jpeg9.dir/jcapimin.c.o
+[120/177] Building C object preview/uvc/jpeg9/CMakeFiles/jpeg9.dir/jcapistd.c.o
+[121/177] Building C object preview/uvc/usb1.0/CMakeFiles/usb1.0.dir/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libusb/libusb/os/linux_netlink.c.o
+[122/177] Building C object preview/uvc/jpeg9/CMakeFiles/jpeg9.dir/jccoefct.c.o
+[123/177] Building C object preview/uvc/jpeg9/CMakeFiles/jpeg9.dir/jcdctmgr.c.o
+[124/177] Linking CXX shared library /Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/build/intermediates/cxx/Debug/4y6k3k1w/obj/arm64-v8a/libyuv.so
+[125/177] Linking CXX static library yuv/libyuv.a
+[126/177] Building CXX object preview/CMakeFiles/uvc_preview.dir/UVCPreview.cpp.o
+In file included from /Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libUvc_Support/UVC_Camera_Saki/UVCPreview.cpp:42:
+In file included from /Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libUvc_Support/UVC_Camera_Saki/UVCPreview.h:34:
+/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libUvc_Support/UVC_Camera_Saki/../uvc_support.h:2:1: warning: '/*' within block comment [-Wcomment]
+/*
+^
+/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libUvc_Support/UVC_Camera_Saki/../uvc_support.h:330:10: warning: 'LOG_TAG' macro redefined [-Wmacro-redefined]
+#define  LOG_TAG    "From libuvc_support"
+         ^
+/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libUvc_Support/UVC_Camera_Saki/localdefines.h:31:9: note: previous definition is here
+#define LOG_TAG "libUVCCamera"
+        ^
+In file included from /Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libUvc_Support/UVC_Camera_Saki/UVCPreview.cpp:42:
+In file included from /Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libUvc_Support/UVC_Camera_Saki/UVCPreview.h:34:
+/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libUvc_Support/UVC_Camera_Saki/../uvc_support.h:331:10: warning: 'LOGD' macro redefined [-Wmacro-redefined]
+#define  LOGD(...)  __android_log_print(ANDROID_LOG_DEBUG, LOG_TAG, __VA_ARGS__)
+         ^
+/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libUvc_Support/UVC_Camera_Saki/utilbase.h:120:11: note: previous definition is here
+                #define LOGD(...)
+                        ^
+In file included from /Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libUvc_Support/UVC_Camera_Saki/UVCPreview.cpp:42:
+In file included from /Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libUvc_Support/UVC_Camera_Saki/UVCPreview.h:34:
+/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libUvc_Support/UVC_Camera_Saki/../uvc_support.h:332:10: warning: 'LOGE' macro redefined [-Wmacro-redefined]
+#define  LOGE(...)  __android_log_print(ANDROID_LOG_ERROR, LOG_TAG, __VA_ARGS__)
+         ^
+/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libUvc_Support/UVC_Camera_Saki/utilbase.h:146:11: note: previous definition is here
+                #define LOGE(FMT, ...) __android_log_print(ANDROID_LOG_ERROR, LOG_TAG, "[%d*%s:%d:%s]:" FMT,    \
+                        ^
+/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libUvc_Support/UVC_Camera_Saki/UVCPreview.cpp:811:11: warning: implicit conversion from 'double' to 'unsigned int' changes value from 0.1 to 0 [-Wliteral-conversion]
+    sleep(.1);
+    ~~~~~ ^~
+5 warnings generated.
+[127/177] Building C object preview/uvc/jpeg9/CMakeFiles/jpeg9.dir/jccolor.c.o
+[128/177] Building C object preview/uvc/jpeg9/CMakeFiles/jpeg9.dir/jcmainct.c.o
+[129/177] Building C object preview/uvc/jpeg9/CMakeFiles/jpeg9.dir/jcinit.c.o
+[130/177] Building C object preview/uvc/jpeg9/CMakeFiles/jpeg9.dir/jchuff.c.o
+[131/177] Building C object preview/uvc/jpeg9/CMakeFiles/jpeg9.dir/jcomapi.c.o
+[132/177] Building C object preview/uvc/jpeg9/CMakeFiles/jpeg9.dir/jcparam.c.o
+[133/177] Building C object preview/uvc/jpeg9/CMakeFiles/jpeg9.dir/jcprepct.c.o
+[134/177] Building C object preview/uvc/jpeg9/CMakeFiles/jpeg9.dir/jcmarker.c.o
+[135/177] Linking CXX executable /Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/build/intermediates/cxx/Debug/4y6k3k1w/obj/arm64-v8a/yuvconvert
+[136/177] Building C object preview/uvc/jpeg9/CMakeFiles/jpeg9.dir/jcmaster.c.o
+[137/177] Building C object preview/uvc/jpeg9/CMakeFiles/jpeg9.dir/jcsample.c.o
+[138/177] Building C object preview/uvc/jpeg9/CMakeFiles/jpeg9.dir/jctrans.c.o
+[139/177] Building C object preview/uvc/jpeg9/CMakeFiles/jpeg9.dir/jdatasrc.c.o
+[140/177] Building C object preview/uvc/jpeg9/CMakeFiles/jpeg9.dir/jdapistd.c.o
+[141/177] Building C object preview/uvc/jpeg9/CMakeFiles/jpeg9.dir/jdapimin.c.o
+[142/177] Building C object preview/uvc/jpeg9/CMakeFiles/jpeg9.dir/jdcolor.c.o
+[143/177] Building C object preview/uvc/jpeg9/CMakeFiles/jpeg9.dir/jdatadst.c.o
+[144/177] Building C object preview/uvc/jpeg9/CMakeFiles/jpeg9.dir/jddctmgr.c.o
+[145/177] Building C object preview/uvc/jpeg9/CMakeFiles/jpeg9.dir/jdcoefct.c.o
+[146/177] Building C object preview/uvc/jpeg9/CMakeFiles/jpeg9.dir/jdmainct.c.o
+[147/177] Building C object preview/uvc/jpeg9/CMakeFiles/jpeg9.dir/jdmerge.c.o
+[148/177] Building C object preview/uvc/CMakeFiles/uvc.dir/src/frame.c.o
+In file included from /Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libuvc/src/frame.c:52:
+/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libuvc/include/libuvc/libuvc_internal.h:19:9: warning: 'UVC_DEBUGGING' macro redefined [-Wmacro-redefined]
+#define UVC_DEBUGGING
+        ^
+<command line>:4:9: note: previous definition is here
+#define UVC_DEBUGGING 1
+        ^
+1 warning generated.
+[149/177] Building C object preview/uvc/jpeg9/CMakeFiles/jpeg9.dir/jdpostct.c.o
+[150/177] Building C object preview/uvc/jpeg9/CMakeFiles/jpeg9.dir/jdinput.c.o
+[151/177] Building C object preview/uvc/jpeg9/CMakeFiles/jpeg9.dir/jdmaster.c.o
+[152/177] Building C object preview/uvc/jpeg9/CMakeFiles/jpeg9.dir/jdsample.c.o
+[153/177] Building C object preview/uvc/jpeg9/CMakeFiles/jpeg9.dir/jdhuff.c.o
+[154/177] Building C object preview/uvc/jpeg9/CMakeFiles/jpeg9.dir/jdtrans.c.o
+[155/177] Building C object preview/uvc/jpeg9/CMakeFiles/jpeg9.dir/jdmarker.c.o
+[156/177] Building C object preview/uvc/jpeg9/CMakeFiles/jpeg9.dir/jfdctflt.c.o
+[157/177] Building C object preview/uvc/jpeg9/CMakeFiles/jpeg9.dir/jidctfst.c.o
+[158/177] Building C object preview/uvc/jpeg9/CMakeFiles/jpeg9.dir/jerror.c.o
+[159/177] Building C object preview/uvc/jpeg9/CMakeFiles/jpeg9.dir/jfdctfst.c.o
+[160/177] Building C object preview/uvc/jpeg9/CMakeFiles/jpeg9.dir/jidctflt.c.o
+[161/177] Building C object preview/uvc/jpeg9/CMakeFiles/jpeg9.dir/jquant1.c.o
+[162/177] Building C object preview/uvc/jpeg9/CMakeFiles/jpeg9.dir/jutils.c.o
+[163/177] Building C object preview/uvc/jpeg9/CMakeFiles/jpeg9.dir/jaricom.c.o
+[164/177] Building C object preview/uvc/jpeg9/CMakeFiles/jpeg9.dir/jquant2.c.o
+[165/177] Building C object preview/uvc/jpeg9/CMakeFiles/jpeg9.dir/jmemnobs.c.o
+[166/177] Building C object preview/uvc/jpeg9/CMakeFiles/jpeg9.dir/jcarith.c.o
+[167/177] Building C object preview/uvc/jpeg9/CMakeFiles/jpeg9.dir/jdarith.c.o
+[168/177] Building C object preview/uvc/jpeg9/CMakeFiles/jpeg9.dir/jmemmgr.c.o
+[169/177] Building C object preview/uvc/usb1.0/CMakeFiles/usb1.0.dir/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libusb/libusb/os/linux_usbfs.c.o
+[170/177] Linking C shared library /Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/build/intermediates/cxx/Debug/4y6k3k1w/obj/arm64-v8a/libusb1.0.so
+[171/177] Building C object preview/uvc/jpeg9/CMakeFiles/jpeg9.dir/jfdctint.c.o
+[172/177] Building C object preview/uvc/jpeg9/CMakeFiles/jpeg9.dir/jidctint.c.o
+[173/177] Linking C executable /Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/build/intermediates/cxx/Debug/4y6k3k1w/obj/arm64-v8a/testlibusb
+[174/177] Linking C shared library /Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/build/intermediates/cxx/Debug/4y6k3k1w/obj/arm64-v8a/libjpeg9.so
+[175/177] Linking C shared library /Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/build/intermediates/cxx/Debug/4y6k3k1w/obj/arm64-v8a/libuvc.so
+[176/177] Linking CXX shared library /Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/build/intermediates/cxx/Debug/4y6k3k1w/obj/arm64-v8a/libuvc_preview.so
+[177/177] Linking CXX shared library /Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/build/intermediates/cxx/Debug/4y6k3k1w/obj/arm64-v8a/libUvc_Support.so

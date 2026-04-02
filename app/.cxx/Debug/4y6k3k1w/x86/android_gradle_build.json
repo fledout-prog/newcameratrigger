@@ -1,0 +1,255 @@
+{
+  "buildFiles": [
+    "/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libUvc_Support/CMakeLists.txt",
+    "/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libUvc_Support/UVC_Camera_Saki/CMakeLists.txt",
+    "/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libjpeg-version-9/libjpeg9/CMakeLists.txt",
+    "/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libusb/cmake/CMakeLists.txt",
+    "/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libuvc/CMakeLists.txt",
+    "/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libyuv/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/Users/edoardo/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+      "-C",
+      "/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/.cxx/Debug/4y6k3k1w/x86",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/Users/edoardo/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+    "-C",
+    "/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/.cxx/Debug/4y6k3k1w/x86",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "Continuous::@a837cc0b56d261456849": {
+      "toolchain": "toolchain",
+      "abi": "x86",
+      "artifactName": "Continuous"
+    },
+    "ContinuousBuild::@a837cc0b56d261456849": {
+      "toolchain": "toolchain",
+      "abi": "x86",
+      "artifactName": "ContinuousBuild"
+    },
+    "ContinuousConfigure::@a837cc0b56d261456849": {
+      "toolchain": "toolchain",
+      "abi": "x86",
+      "artifactName": "ContinuousConfigure"
+    },
+    "ContinuousCoverage::@a837cc0b56d261456849": {
+      "toolchain": "toolchain",
+      "abi": "x86",
+      "artifactName": "ContinuousCoverage"
+    },
+    "ContinuousMemCheck::@a837cc0b56d261456849": {
+      "toolchain": "toolchain",
+      "abi": "x86",
+      "artifactName": "ContinuousMemCheck"
+    },
+    "ContinuousStart::@a837cc0b56d261456849": {
+      "toolchain": "toolchain",
+      "abi": "x86",
+      "artifactName": "ContinuousStart"
+    },
+    "ContinuousSubmit::@a837cc0b56d261456849": {
+      "toolchain": "toolchain",
+      "abi": "x86",
+      "artifactName": "ContinuousSubmit"
+    },
+    "ContinuousTest::@a837cc0b56d261456849": {
+      "toolchain": "toolchain",
+      "abi": "x86",
+      "artifactName": "ContinuousTest"
+    },
+    "ContinuousUpdate::@a837cc0b56d261456849": {
+      "toolchain": "toolchain",
+      "abi": "x86",
+      "artifactName": "ContinuousUpdate"
+    },
+    "Experimental::@a837cc0b56d261456849": {
+      "toolchain": "toolchain",
+      "abi": "x86",
+      "artifactName": "Experimental"
+    },
+    "ExperimentalBuild::@a837cc0b56d261456849": {
+      "toolchain": "toolchain",
+      "abi": "x86",
+      "artifactName": "ExperimentalBuild"
+    },
+    "ExperimentalConfigure::@a837cc0b56d261456849": {
+      "toolchain": "toolchain",
+      "abi": "x86",
+      "artifactName": "ExperimentalConfigure"
+    },
+    "ExperimentalCoverage::@a837cc0b56d261456849": {
+      "toolchain": "toolchain",
+      "abi": "x86",
+      "artifactName": "ExperimentalCoverage"
+    },
+    "ExperimentalMemCheck::@a837cc0b56d261456849": {
+      "toolchain": "toolchain",
+      "abi": "x86",
+      "artifactName": "ExperimentalMemCheck"
+    },
+    "ExperimentalStart::@a837cc0b56d261456849": {
+      "toolchain": "toolchain",
+      "abi": "x86",
+      "artifactName": "ExperimentalStart"
+    },
+    "ExperimentalSubmit::@a837cc0b56d261456849": {
+      "toolchain": "toolchain",
+      "abi": "x86",
+      "artifactName": "ExperimentalSubmit"
+    },
+    "ExperimentalTest::@a837cc0b56d261456849": {
+      "toolchain": "toolchain",
+      "abi": "x86",
+      "artifactName": "ExperimentalTest"
+    },
+    "ExperimentalUpdate::@a837cc0b56d261456849": {
+      "toolchain": "toolchain",
+      "abi": "x86",
+      "artifactName": "ExperimentalUpdate"
+    },
+    "Nightly::@a837cc0b56d261456849": {
+      "toolchain": "toolchain",
+      "abi": "x86",
+      "artifactName": "Nightly"
+    },
+    "NightlyBuild::@a837cc0b56d261456849": {
+      "toolchain": "toolchain",
+      "abi": "x86",
+      "artifactName": "NightlyBuild"
+    },
+    "NightlyConfigure::@a837cc0b56d261456849": {
+      "toolchain": "toolchain",
+      "abi": "x86",
+      "artifactName": "NightlyConfigure"
+    },
+    "NightlyCoverage::@a837cc0b56d261456849": {
+      "toolchain": "toolchain",
+      "abi": "x86",
+      "artifactName": "NightlyCoverage"
+    },
+    "NightlyMemCheck::@a837cc0b56d261456849": {
+      "toolchain": "toolchain",
+      "abi": "x86",
+      "artifactName": "NightlyMemCheck"
+    },
+    "NightlyMemoryCheck::@a837cc0b56d261456849": {
+      "toolchain": "toolchain",
+      "abi": "x86",
+      "artifactName": "NightlyMemoryCheck"
+    },
+    "NightlyStart::@a837cc0b56d261456849": {
+      "toolchain": "toolchain",
+      "abi": "x86",
+      "artifactName": "NightlyStart"
+    },
+    "NightlySubmit::@a837cc0b56d261456849": {
+      "toolchain": "toolchain",
+      "abi": "x86",
+      "artifactName": "NightlySubmit"
+    },
+    "NightlyTest::@a837cc0b56d261456849": {
+      "toolchain": "toolchain",
+      "abi": "x86",
+      "artifactName": "NightlyTest"
+    },
+    "NightlyUpdate::@a837cc0b56d261456849": {
+      "toolchain": "toolchain",
+      "abi": "x86",
+      "artifactName": "NightlyUpdate"
+    },
+    "Uvc_Support::@6890427a1f51a3e7e1df": {
+      "toolchain": "toolchain",
+      "abi": "x86",
+      "artifactName": "Uvc_Support",
+      "output": "/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/build/intermediates/cxx/Debug/4y6k3k1w/obj/x86/libUvc_Support.so",
+      "runtimeFiles": [
+        "/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/build/intermediates/cxx/Debug/4y6k3k1w/obj/x86/libuvc_preview.so",
+        "/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/build/intermediates/cxx/Debug/4y6k3k1w/obj/x86/libuvc.so",
+        "/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/build/intermediates/cxx/Debug/4y6k3k1w/obj/x86/libusb1.0.so",
+        "/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/build/intermediates/cxx/Debug/4y6k3k1w/obj/x86/libjpeg9.so"
+      ]
+    },
+    "jpeg9::@2b63d1e2e7684fce2e49": {
+      "toolchain": "toolchain",
+      "abi": "x86",
+      "artifactName": "jpeg9",
+      "output": "/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/build/intermediates/cxx/Debug/4y6k3k1w/obj/x86/libjpeg9.so",
+      "runtimeFiles": []
+    },
+    "testlibusb::@a837cc0b56d261456849": {
+      "toolchain": "toolchain",
+      "abi": "x86",
+      "artifactName": "testlibusb",
+      "output": "/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/build/intermediates/cxx/Debug/4y6k3k1w/obj/x86/testlibusb",
+      "runtimeFiles": [
+        "/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/build/intermediates/cxx/Debug/4y6k3k1w/obj/x86/libusb1.0.so"
+      ]
+    },
+    "usb1.0::@a837cc0b56d261456849": {
+      "toolchain": "toolchain",
+      "abi": "x86",
+      "artifactName": "usb1.0",
+      "output": "/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/build/intermediates/cxx/Debug/4y6k3k1w/obj/x86/libusb1.0.so",
+      "runtimeFiles": []
+    },
+    "uvc::@da8c77e360b72285274a": {
+      "toolchain": "toolchain",
+      "abi": "x86",
+      "artifactName": "uvc",
+      "output": "/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/build/intermediates/cxx/Debug/4y6k3k1w/obj/x86/libuvc.so",
+      "runtimeFiles": [
+        "/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/build/intermediates/cxx/Debug/4y6k3k1w/obj/x86/libusb1.0.so",
+        "/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/build/intermediates/cxx/Debug/4y6k3k1w/obj/x86/libjpeg9.so"
+      ]
+    },
+    "uvc_preview::@4b16d1885309ab00dc2d": {
+      "toolchain": "toolchain",
+      "abi": "x86",
+      "artifactName": "uvc_preview",
+      "output": "/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/build/intermediates/cxx/Debug/4y6k3k1w/obj/x86/libuvc_preview.so",
+      "runtimeFiles": [
+        "/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/build/intermediates/cxx/Debug/4y6k3k1w/obj/x86/libuvc.so",
+        "/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/build/intermediates/cxx/Debug/4y6k3k1w/obj/x86/libusb1.0.so",
+        "/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/build/intermediates/cxx/Debug/4y6k3k1w/obj/x86/libjpeg9.so"
+      ]
+    },
+    "yuv::@8ce9aa2ebcd041e2c14c": {
+      "toolchain": "toolchain",
+      "abi": "x86",
+      "artifactName": "yuv",
+      "output": "/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/.cxx/Debug/4y6k3k1w/x86/yuv/libyuv.a"
+    },
+    "yuv_shared::@8ce9aa2ebcd041e2c14c": {
+      "toolchain": "toolchain",
+      "abi": "x86",
+      "artifactName": "yuv_shared",
+      "output": "/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/build/intermediates/cxx/Debug/4y6k3k1w/obj/x86/libyuv.so",
+      "runtimeFiles": []
+    },
+    "yuvconvert::@8ce9aa2ebcd041e2c14c": {
+      "toolchain": "toolchain",
+      "abi": "x86",
+      "artifactName": "yuvconvert",
+      "output": "/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/build/intermediates/cxx/Debug/4y6k3k1w/obj/x86/yuvconvert",
+      "runtimeFiles": []
+    }
+  },
+  "toolchains": {
+    "toolchain": {
+      "cCompilerExecutable": "/Users/edoardo/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang.lld",
+      "cppCompilerExecutable": "/Users/edoardo/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++.lld"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": [
+    "cpp",
+    "cc"
+  ]
+}

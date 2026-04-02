@@ -1,0 +1,598 @@
+[
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "humer.UvcCamera.app-main-20:/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/drawable_bg_button_flip_right.xml.flat",
+        "source": "humer.UvcCamera.app-main-20:/drawable/bg_button_flip_right.xml"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/drawable_alternative_driver.png.flat",
+        "source": "humer.UvcCamera.app-main-20:/drawable/alternative_driver.png"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/drawable_settings_pressed.png.flat",
+        "source": "humer.UvcCamera.app-main-20:/drawable/settings_pressed.png"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/drawable_ic_wallpaper_lower_resolution_24dp.xml.flat",
+        "source": "humer.UvcCamera.app-main-20:/drawable/ic_wallpaper_lower_resolution_24dp.xml"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/drawable_libusb.png.flat",
+        "source": "humer.UvcCamera.app-main-20:/drawable/libusb.png"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/drawable-ldpi_ic_action_return_from_full_screen.png.flat",
+        "source": "humer.UvcCamera.app-main-20:/drawable-ldpi/ic_action_return_from_full_screen.png"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/menu_iso_stream_start_stream_menu.xml.flat",
+        "source": "humer.UvcCamera.app-main-20:/menu/iso_stream_start_stream_menu.xml"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/layout_set_up_the_device_configuration.xml.flat",
+        "source": "humer.UvcCamera.app-main-20:/layout/set_up_the_device_configuration.xml"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/mipmap-xhdpi_country_germany.png.flat",
+        "source": "humer.UvcCamera.app-main-20:/mipmap-xhdpi/country_germany.png"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/drawable_record.png.flat",
+        "source": "humer.UvcCamera.app-main-20:/drawable/record.png"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/mipmap-mdpi_ic_launcher_background.png.flat",
+        "source": "humer.UvcCamera.app-main-20:/mipmap-mdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/drawable_ic_web_rtc_24dp.xml.flat",
+        "source": "humer.UvcCamera.app-main-20:/drawable/ic_web_rtc_24dp.xml"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/drawable-mdpi_ic_action_return_from_full_screen.png.flat",
+        "source": "humer.UvcCamera.app-main-20:/drawable-mdpi/ic_action_return_from_full_screen.png"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/drawable_ic_brightness_green_24dp.xml.flat",
+        "source": "humer.UvcCamera.app-main-20:/drawable/ic_brightness_green_24dp.xml"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/drawable_setup_complete.png.flat",
+        "source": "humer.UvcCamera.app-main-20:/drawable/setup_complete.png"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/drawable-ldpi_icon.png.flat",
+        "source": "humer.UvcCamera.app-main-20:/drawable-ldpi/icon.png"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/menu_iso_stream_resolution_frameinterval.xml.flat",
+        "source": "humer.UvcCamera.app-main-20:/menu/iso_stream_resolution_frameinterval.xml"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/drawable_ic_brightness_2green_24dp.xml.flat",
+        "source": "humer.UvcCamera.app-main-20:/drawable/ic_brightness_2green_24dp.xml"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/menu_libusb_menu.xml.flat",
+        "source": "humer.UvcCamera.app-main-20:/menu/libusb_menu.xml"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/drawable_right_pressed.png.flat",
+        "source": "humer.UvcCamera.app-main-20:/drawable/right_pressed.png"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/menu_camera_settings.xml.flat",
+        "source": "humer.UvcCamera.app-main-20:/menu/camera_settings.xml"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "humer.UvcCamera.app-main-20:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/menu_set_up_the_device_testrun_menubutton.xml.flat",
+        "source": "humer.UvcCamera.app-main-20:/menu/set_up_the_device_testrun_menubutton.xml"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/drawable_bg_button_flip_vertical.xml.flat",
+        "source": "humer.UvcCamera.app-main-20:/drawable/bg_button_flip_vertical.xml"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/mipmap-xhdpi_country_korea.png.flat",
+        "source": "humer.UvcCamera.app-main-20:/mipmap-xhdpi/country_korea.png"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/drawable_left_pressed.png.flat",
+        "source": "humer.UvcCamera.app-main-20:/drawable/left_pressed.png"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "humer.UvcCamera.app-main-20:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/drawable_ic_launcher_background.xml.flat",
+        "source": "humer.UvcCamera.app-main-20:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/drawable_bg_toggle_button_flip_horizontal.xml.flat",
+        "source": "humer.UvcCamera.app-main-20:/drawable/bg_toggle_button_flip_horizontal.xml"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/layout_stf_select_active_urbs.xml.flat",
+        "source": "humer.UvcCamera.app-main-20:/layout/stf_select_active_urbs.xml"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/layout_auto_detect_fragment.xml.flat",
+        "source": "humer.UvcCamera.app-main-20:/layout/auto_detect_fragment.xml"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/layout_main_activity.xml.flat",
+        "source": "humer.UvcCamera.app-main-20:/layout/main_activity.xml"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/drawable_findcam.png.flat",
+        "source": "humer.UvcCamera.app-main-20:/drawable/findcam.png"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/layout_activity_privacy_policyctivity.xml.flat",
+        "source": "humer.UvcCamera.app-main-20:/layout/activity_privacy_policyctivity.xml"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/drawable_ic_brightness_5_black_24dp.xml.flat",
+        "source": "humer.UvcCamera.app-main-20:/drawable/ic_brightness_5_black_24dp.xml"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/layout_auto_detect_layout.xml.flat",
+        "source": "humer.UvcCamera.app-main-20:/layout/auto_detect_layout.xml"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/drawable_ic_brightness_terminal_24dp.xml.flat",
+        "source": "humer.UvcCamera.app-main-20:/drawable/ic_brightness_terminal_24dp.xml"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/drawable_flip_vertical.png.flat",
+        "source": "humer.UvcCamera.app-main-20:/drawable/flip_vertical.png"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "humer.UvcCamera.app-main-20:/mipmap-xhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "humer.UvcCamera.app-main-20:/mipmap-hdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/drawable_photo_clear.png.flat",
+        "source": "humer.UvcCamera.app-main-20:/drawable/photo_clear.png"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "humer.UvcCamera.app-main-20:/mipmap-xxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/drawable_bg_button_settings_background.xml.flat",
+        "source": "humer.UvcCamera.app-main-20:/drawable/bg_button_settings_background.xml"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/drawable_ic_chat_bubble_outline_black_24px.xml.flat",
+        "source": "humer.UvcCamera.app-main-20:/drawable/ic_chat_bubble_outline_black_24px.xml"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/drawable_flip_horizontal.png.flat",
+        "source": "humer.UvcCamera.app-main-20:/drawable/flip_horizontal.png"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "humer.UvcCamera.app-main-20:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/drawable-hdpi_ic_action_full_screen.png.flat",
+        "source": "humer.UvcCamera.app-main-20:/drawable-hdpi/ic_action_full_screen.png"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/drawable_jpg_pressed.png.flat",
+        "source": "humer.UvcCamera.app-main-20:/drawable/jpg_pressed.png"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/layout_iso_stream_fragment.xml.flat",
+        "source": "humer.UvcCamera.app-main-20:/layout/iso_stream_fragment.xml"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/drawable_flip_horizontal_pressed.png.flat",
+        "source": "humer.UvcCamera.app-main-20:/drawable/flip_horizontal_pressed.png"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/mipmap-xhdpi_country_thai.png.flat",
+        "source": "humer.UvcCamera.app-main-20:/mipmap-xhdpi/country_thai.png"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/drawable_background.xml.flat",
+        "source": "humer.UvcCamera.app-main-20:/drawable/background.xml"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "humer.UvcCamera.app-main-20:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/drawable_photo_pressed.png.flat",
+        "source": "humer.UvcCamera.app-main-20:/drawable/photo_pressed.png"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/layout_layout_readme.xml.flat",
+        "source": "humer.UvcCamera.app-main-20:/layout/layout_readme.xml"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/layout_layout_main.xml.flat",
+        "source": "humer.UvcCamera.app-main-20:/layout/layout_main.xml"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/drawable_settings.png.flat",
+        "source": "humer.UvcCamera.app-main-20:/drawable/settings.png"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "humer.UvcCamera.app-main-20:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/drawable_ic_mail_outline_black_24px.xml.flat",
+        "source": "humer.UvcCamera.app-main-20:/drawable/ic_mail_outline_black_24px.xml"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/drawable_one_frame.png.flat",
+        "source": "humer.UvcCamera.app-main-20:/drawable/one_frame.png"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/drawable_record_stop.png.flat",
+        "source": "humer.UvcCamera.app-main-20:/drawable/record_stop.png"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/layout_set_up_the_device_move_to_native.xml.flat",
+        "source": "humer.UvcCamera.app-main-20:/layout/set_up_the_device_move_to_native.xml"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/layout_stf_select_max_package_layout.xml.flat",
+        "source": "humer.UvcCamera.app-main-20:/layout/stf_select_max_package_layout.xml"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "humer.UvcCamera.app-main-20:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/drawable_bg_button_stop.xml.flat",
+        "source": "humer.UvcCamera.app-main-20:/drawable/bg_button_stop.xml"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/menu_iso_stream_adjust_values_unit.xml.flat",
+        "source": "humer.UvcCamera.app-main-20:/menu/iso_stream_adjust_values_unit.xml"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/mipmap-xhdpi_country_japan.png.flat",
+        "source": "humer.UvcCamera.app-main-20:/mipmap-xhdpi/country_japan.png"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/xml_device_filter.xml.flat",
+        "source": "humer.UvcCamera.app-main-20:/xml/device_filter.xml"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/drawable_ic_call_white_24px.xml.flat",
+        "source": "humer.UvcCamera.app-main-20:/drawable/ic_call_white_24px.xml"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/drawable_bg_toggle_aspect_ratio.xml.flat",
+        "source": "humer.UvcCamera.app-main-20:/drawable/bg_toggle_aspect_ratio.xml"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/layout_dialog_header_layout_20.xml.flat",
+        "source": "humer.UvcCamera.app-main-20:/layout/dialog_header_layout_20.xml"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/drawable_ic_resolution_24dp.xml.flat",
+        "source": "humer.UvcCamera.app-main-20:/drawable/ic_resolution_24dp.xml"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/mipmap-xhdpi_country_china.png.flat",
+        "source": "humer.UvcCamera.app-main-20:/mipmap-xhdpi/country_china.png"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/layout_dialog_header_layout_40.xml.flat",
+        "source": "humer.UvcCamera.app-main-20:/layout/dialog_header_layout_40.xml"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/drawable_bg_button_settings.xml.flat",
+        "source": "humer.UvcCamera.app-main-20:/drawable/bg_button_settings.xml"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/drawable-ldpi_disconnect.png.flat",
+        "source": "humer.UvcCamera.app-main-20:/drawable-ldpi/disconnect.png"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/drawable_ic_menu_camera.png.flat",
+        "source": "humer.UvcCamera.app-main-20:/drawable/ic_menu_camera.png"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "humer.UvcCamera.app-main-20:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/drawable_left.png.flat",
+        "source": "humer.UvcCamera.app-main-20:/drawable/left.png"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/layout_layout_language_chooser.xml.flat",
+        "source": "humer.UvcCamera.app-main-20:/layout/layout_language_chooser.xml"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/drawable_bg_button.xml.flat",
+        "source": "humer.UvcCamera.app-main-20:/drawable/bg_button.xml"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "humer.UvcCamera.app-main-20:/mipmap-mdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/drawable_aspect_ratio.png.flat",
+        "source": "humer.UvcCamera.app-main-20:/drawable/aspect_ratio.png"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/raw_sound2.mp3.flat",
+        "source": "humer.UvcCamera.app-main-20:/raw/sound2.mp3"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/layout_activity_call.xml.flat",
+        "source": "humer.UvcCamera.app-main-20:/layout/activity_call.xml"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/raw_sound1.mp3.flat",
+        "source": "humer.UvcCamera.app-main-20:/raw/sound1.mp3"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/drawable_bg_button_toggle_libusb.xml.flat",
+        "source": "humer.UvcCamera.app-main-20:/drawable/bg_button_toggle_libusb.xml"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/drawable_photo.png.flat",
+        "source": "humer.UvcCamera.app-main-20:/drawable/photo.png"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/layout_set_up_the_device_manual_automatic.xml.flat",
+        "source": "humer.UvcCamera.app-main-20:/layout/set_up_the_device_manual_automatic.xml"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/drawable_bg_button_bildaufnahme.xml.flat",
+        "source": "humer.UvcCamera.app-main-20:/drawable/bg_button_bildaufnahme.xml"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/mipmap-xhdpi_ic_launcher_background.png.flat",
+        "source": "humer.UvcCamera.app-main-20:/mipmap-xhdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/drawable_bg_button_red.xml.flat",
+        "source": "humer.UvcCamera.app-main-20:/drawable/bg_button_red.xml"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/drawable-xhdpi_ic_action_full_screen.png.flat",
+        "source": "humer.UvcCamera.app-main-20:/drawable-xhdpi/ic_action_full_screen.png"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/drawable_bg_toggle_button_flip_vertical.xml.flat",
+        "source": "humer.UvcCamera.app-main-20:/drawable/bg_toggle_button_flip_vertical.xml"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/drawable_main_background.png.flat",
+        "source": "humer.UvcCamera.app-main-20:/drawable/main_background.png"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/drawable_right.png.flat",
+        "source": "humer.UvcCamera.app-main-20:/drawable/right.png"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/drawable_bg_button_green.xml.flat",
+        "source": "humer.UvcCamera.app-main-20:/drawable/bg_button_green.xml"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/drawable_ic_frameinterval_24dp.xml.flat",
+        "source": "humer.UvcCamera.app-main-20:/drawable/ic_frameinterval_24dp.xml"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/layout_iso_stream_resolution_interval_menu.xml.flat",
+        "source": "humer.UvcCamera.app-main-20:/layout/iso_stream_resolution_interval_menu.xml"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/menu_iso_stream_adjust_values_terminal.xml.flat",
+        "source": "humer.UvcCamera.app-main-20:/menu/iso_stream_adjust_values_terminal.xml"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/drawable_listdev.png.flat",
+        "source": "humer.UvcCamera.app-main-20:/drawable/listdev.png"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/layout_iso_stream_layout.xml.flat",
+        "source": "humer.UvcCamera.app-main-20:/layout/iso_stream_layout.xml"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "humer.UvcCamera.app-main-20:/mipmap-xxxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/mipmap-xhdpi_country_italy.png.flat",
+        "source": "humer.UvcCamera.app-main-20:/mipmap-xhdpi/country_italy.png"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/drawable_jpg.png.flat",
+        "source": "humer.UvcCamera.app-main-20:/drawable/jpg.png"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/drawable-mdpi_ic_action_full_screen.png.flat",
+        "source": "humer.UvcCamera.app-main-20:/drawable-mdpi/ic_action_full_screen.png"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/drawable_round_button.xml.flat",
+        "source": "humer.UvcCamera.app-main-20:/drawable/round_button.xml"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/drawable_bg_button_videoaufnahme.xml.flat",
+        "source": "humer.UvcCamera.app-main-20:/drawable/bg_button_videoaufnahme.xml"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/drawable_bg_button_flip_left.xml.flat",
+        "source": "humer.UvcCamera.app-main-20:/drawable/bg_button_flip_left.xml"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/drawable_ic_chat_bubble_outline_white_24px.xml.flat",
+        "source": "humer.UvcCamera.app-main-20:/drawable/ic_chat_bubble_outline_white_24px.xml"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/drawable-mdpi_icon.png.flat",
+        "source": "humer.UvcCamera.app-main-20:/drawable-mdpi/icon.png"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/drawable_bg_button_start_stream.xml.flat",
+        "source": "humer.UvcCamera.app-main-20:/drawable/bg_button_start_stream.xml"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "humer.UvcCamera.app-main-20:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/mipmap-xhdpi_country_russia.png.flat",
+        "source": "humer.UvcCamera.app-main-20:/mipmap-xhdpi/country_russia.png"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/drawable-hdpi_ic_action_return_from_full_screen.png.flat",
+        "source": "humer.UvcCamera.app-main-20:/drawable-hdpi/ic_action_return_from_full_screen.png"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/drawable_bg_button_flip_horizontal.xml.flat",
+        "source": "humer.UvcCamera.app-main-20:/drawable/bg_button_flip_horizontal.xml"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/drawable-hdpi_disconnect.png.flat",
+        "source": "humer.UvcCamera.app-main-20:/drawable-hdpi/disconnect.png"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/drawable-mdpi_disconnect.png.flat",
+        "source": "humer.UvcCamera.app-main-20:/drawable-mdpi/disconnect.png"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/drawable-xhdpi_disconnect.png.flat",
+        "source": "humer.UvcCamera.app-main-20:/drawable-xhdpi/disconnect.png"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/drawable_controltransfer.png.flat",
+        "source": "humer.UvcCamera.app-main-20:/drawable/controltransfer.png"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/drawable_exit_program_24dp.xml.flat",
+        "source": "humer.UvcCamera.app-main-20:/drawable/exit_program_24dp.xml"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/drawable-hdpi_icon.png.flat",
+        "source": "humer.UvcCamera.app-main-20:/drawable-hdpi/icon.png"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/drawable_lower_resolution_not_activated_24dp.xml.flat",
+        "source": "humer.UvcCamera.app-main-20:/drawable/lower_resolution_not_activated_24dp.xml"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/drawable_ic_baseline_screen_rotation_24.xml.flat",
+        "source": "humer.UvcCamera.app-main-20:/drawable/ic_baseline_screen_rotation_24.xml"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/drawable-ldpi_ic_action_full_screen.png.flat",
+        "source": "humer.UvcCamera.app-main-20:/drawable-ldpi/ic_action_full_screen.png"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/drawable_aspect_ratio_clicked.png.flat",
+        "source": "humer.UvcCamera.app-main-20:/drawable/aspect_ratio_clicked.png"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/layout_layout_flip_ratio.xml.flat",
+        "source": "humer.UvcCamera.app-main-20:/layout/layout_flip_ratio.xml"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/drawable_flip_vertical_pressed.png.flat",
+        "source": "humer.UvcCamera.app-main-20:/drawable/flip_vertical_pressed.png"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/mipmap-xhdpi_country_america.png.flat",
+        "source": "humer.UvcCamera.app-main-20:/mipmap-xhdpi/country_america.png"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/layout_set_up_the_device_layout_main.xml.flat",
+        "source": "humer.UvcCamera.app-main-20:/layout/set_up_the_device_layout_main.xml"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/mipmap-xhdpi_country_portugal.png.flat",
+        "source": "humer.UvcCamera.app-main-20:/mipmap-xhdpi/country_portugal.png"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/drawable-hdpi_ic_menu_camera.png.flat",
+        "source": "humer.UvcCamera.app-main-20:/drawable-hdpi/ic_menu_camera.png"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "humer.UvcCamera.app-main-20:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/layout_dialog_header_layout.xml.flat",
+        "source": "humer.UvcCamera.app-main-20:/layout/dialog_header_layout.xml"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/drawable_ic_call_black_24px.xml.flat",
+        "source": "humer.UvcCamera.app-main-20:/drawable/ic_call_black_24px.xml"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "humer.UvcCamera.app-main-20:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/menu_set_up_dev_bulk_menu_usbiso.xml.flat",
+        "source": "humer.UvcCamera.app-main-20:/menu/set_up_dev_bulk_menu_usbiso.xml"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/drawable_ic_mail_outline_white_24px.xml.flat",
+        "source": "humer.UvcCamera.app-main-20:/drawable/ic_mail_outline_white_24px.xml"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/mipmap-xxhdpi_ic_launcher_background.png.flat",
+        "source": "humer.UvcCamera.app-main-20:/mipmap-xxhdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/mipmap-hdpi_ic_launcher_background.png.flat",
+        "source": "humer.UvcCamera.app-main-20:/mipmap-hdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/mipmap-xxxhdpi_ic_launcher_background.png.flat",
+        "source": "humer.UvcCamera.app-main-20:/mipmap-xxxhdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/drawable_bg_button_yellow.xml.flat",
+        "source": "humer.UvcCamera.app-main-20:/drawable/bg_button_yellow.xml"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/drawable_one_frame_2.png.flat",
+        "source": "humer.UvcCamera.app-main-20:/drawable/one_frame_2.png"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/drawable_return_main_screen_24dp.xml.flat",
+        "source": "humer.UvcCamera.app-main-20:/drawable/return_main_screen_24dp.xml"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/drawable-xhdpi_ic_action_return_from_full_screen.png.flat",
+        "source": "humer.UvcCamera.app-main-20:/drawable-xhdpi/ic_action_return_from_full_screen.png"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/menu_set_up_dev_bulk_menu.xml.flat",
+        "source": "humer.UvcCamera.app-main-20:/menu/set_up_dev_bulk_menu.xml"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/menu_iso_stream_settings_button.xml.flat",
+        "source": "humer.UvcCamera.app-main-20:/menu/iso_stream_settings_button.xml"
+    },
+    {
+        "merged": "humer.UvcCamera.app-debug-18:/menu_iso_stream_select_terminal_unit.xml.flat",
+        "source": "humer.UvcCamera.app-main-20:/menu/iso_stream_select_terminal_unit.xml"
+    }
+]
