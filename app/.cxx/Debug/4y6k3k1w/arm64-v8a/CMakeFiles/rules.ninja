@@ -204,7 +204,7 @@ rule C_SHARED_LIBRARY_LINKER__jpeg9_Debug
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = /Users/edoardo/Library/Android/sdk/cmake/3.22.1/bin/cmake --regenerate-during-build -S/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libUvc_Support -B/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/.cxx/Debug/4y6k3k1w/arm64-v8a
+  command = /Users/edoardo/Library/Android/sdk/cmake/3.22.1/bin/cmake --regenerate-during-build -S/Users/edoardo/Desktop/newcameratrigger/newcameratrigger/app/src/main/cpp/libUvc_Support -B/Users/edoardo/Desktop/newcameratrigger/newcameratrigger/app/.cxx/Debug/4y6k3k1w/arm64-v8a
   description = Re-running CMake...
   generator = 1
 

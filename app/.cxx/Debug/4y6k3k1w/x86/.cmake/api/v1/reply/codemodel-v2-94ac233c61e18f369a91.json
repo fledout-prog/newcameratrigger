@@ -1,0 +1,543 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						28
+					]
+				},
+				{
+					"build" : "yuv",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-yuv-Debug-727d23f3a00ac5002f84.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "/Users/edoardo/Desktop/newcameratrigger/newcameratrigger/app/src/main/cpp/libyuv",
+					"targetIndexes" : 
+					[
+						34,
+						35,
+						36
+					]
+				},
+				{
+					"build" : "preview",
+					"childIndexes" : 
+					[
+						3
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-preview-Debug-4bd01bd0da1f53f18477.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "UVC_Camera_Saki",
+					"targetIndexes" : 
+					[
+						33
+					]
+				},
+				{
+					"build" : "preview/uvc",
+					"childIndexes" : 
+					[
+						4,
+						5
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-preview.uvc-Debug-f9cdc8f082bee605ffab.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 3,
+					"source" : "/Users/edoardo/Desktop/newcameratrigger/newcameratrigger/app/src/main/cpp/libuvc",
+					"targetIndexes" : 
+					[
+						32
+					]
+				},
+				{
+					"build" : "preview/uvc/usb1.0",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-preview.uvc.usb1.0-Debug-3c664d2c8616b88dafb7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 4,
+					"source" : "/Users/edoardo/Desktop/newcameratrigger/newcameratrigger/app/src/main/cpp/libusb/cmake",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						30,
+						31
+					]
+				},
+				{
+					"build" : "preview/uvc/jpeg9",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-preview.uvc.jpeg9-Debug-bdd00c5d6aae7b8f929a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 5,
+					"source" : "/Users/edoardo/Desktop/newcameratrigger/newcameratrigger/app/src/main/cpp/libjpeg-version-9/libjpeg9",
+					"targetIndexes" : 
+					[
+						29
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "myapplication",
+					"targetIndexes" : 
+					[
+						28
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "YUV",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						34,
+						35,
+						36
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						3
+					],
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "UVC_Preview",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						33
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						4,
+						5
+					],
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "libuvc",
+					"parentIndex" : 2,
+					"targetIndexes" : 
+					[
+						32
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "usb1.0",
+					"parentIndex" : 3,
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						30,
+						31
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "jpeg9",
+					"parentIndex" : 3,
+					"targetIndexes" : 
+					[
+						29
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 4,
+					"id" : "Continuous::@a837cc0b56d261456849",
+					"jsonFile" : "target-Continuous-Debug-a44558212ea6ccd1a3ed.json",
+					"name" : "Continuous",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ContinuousBuild::@a837cc0b56d261456849",
+					"jsonFile" : "target-ContinuousBuild-Debug-15585dda1b5db7625201.json",
+					"name" : "ContinuousBuild",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ContinuousConfigure::@a837cc0b56d261456849",
+					"jsonFile" : "target-ContinuousConfigure-Debug-9ba7bc0021c15ea0aff4.json",
+					"name" : "ContinuousConfigure",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ContinuousCoverage::@a837cc0b56d261456849",
+					"jsonFile" : "target-ContinuousCoverage-Debug-8c42f39bfa6407f50aa5.json",
+					"name" : "ContinuousCoverage",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ContinuousMemCheck::@a837cc0b56d261456849",
+					"jsonFile" : "target-ContinuousMemCheck-Debug-47252a3e74ff4003ddff.json",
+					"name" : "ContinuousMemCheck",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ContinuousStart::@a837cc0b56d261456849",
+					"jsonFile" : "target-ContinuousStart-Debug-184601994b51494d4470.json",
+					"name" : "ContinuousStart",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ContinuousSubmit::@a837cc0b56d261456849",
+					"jsonFile" : "target-ContinuousSubmit-Debug-18a265c25702e6eb465b.json",
+					"name" : "ContinuousSubmit",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ContinuousTest::@a837cc0b56d261456849",
+					"jsonFile" : "target-ContinuousTest-Debug-342e927486eabf4a98b4.json",
+					"name" : "ContinuousTest",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ContinuousUpdate::@a837cc0b56d261456849",
+					"jsonFile" : "target-ContinuousUpdate-Debug-ad3734e77c5a39b688dd.json",
+					"name" : "ContinuousUpdate",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "Experimental::@a837cc0b56d261456849",
+					"jsonFile" : "target-Experimental-Debug-2f10471ad38431d9811a.json",
+					"name" : "Experimental",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ExperimentalBuild::@a837cc0b56d261456849",
+					"jsonFile" : "target-ExperimentalBuild-Debug-007055d68e79a7ecf3b0.json",
+					"name" : "ExperimentalBuild",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ExperimentalConfigure::@a837cc0b56d261456849",
+					"jsonFile" : "target-ExperimentalConfigure-Debug-de128df45602c006871c.json",
+					"name" : "ExperimentalConfigure",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ExperimentalCoverage::@a837cc0b56d261456849",
+					"jsonFile" : "target-ExperimentalCoverage-Debug-b6be2681792c52a4d591.json",
+					"name" : "ExperimentalCoverage",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ExperimentalMemCheck::@a837cc0b56d261456849",
+					"jsonFile" : "target-ExperimentalMemCheck-Debug-22efc81c2908417979af.json",
+					"name" : "ExperimentalMemCheck",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ExperimentalStart::@a837cc0b56d261456849",
+					"jsonFile" : "target-ExperimentalStart-Debug-ccd930d2197752014b4f.json",
+					"name" : "ExperimentalStart",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ExperimentalSubmit::@a837cc0b56d261456849",
+					"jsonFile" : "target-ExperimentalSubmit-Debug-0f601f6cfb072d2b4ae8.json",
+					"name" : "ExperimentalSubmit",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ExperimentalTest::@a837cc0b56d261456849",
+					"jsonFile" : "target-ExperimentalTest-Debug-c196def63a8966019e87.json",
+					"name" : "ExperimentalTest",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ExperimentalUpdate::@a837cc0b56d261456849",
+					"jsonFile" : "target-ExperimentalUpdate-Debug-87a93baf10b2238d6891.json",
+					"name" : "ExperimentalUpdate",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "Nightly::@a837cc0b56d261456849",
+					"jsonFile" : "target-Nightly-Debug-9c0a448cfa5f92fc6eb3.json",
+					"name" : "Nightly",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "NightlyBuild::@a837cc0b56d261456849",
+					"jsonFile" : "target-NightlyBuild-Debug-c79719a3396d0121187c.json",
+					"name" : "NightlyBuild",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "NightlyConfigure::@a837cc0b56d261456849",
+					"jsonFile" : "target-NightlyConfigure-Debug-92e9efd7b1a43b7a567d.json",
+					"name" : "NightlyConfigure",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "NightlyCoverage::@a837cc0b56d261456849",
+					"jsonFile" : "target-NightlyCoverage-Debug-5d014fb1836cf1d1a202.json",
+					"name" : "NightlyCoverage",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "NightlyMemCheck::@a837cc0b56d261456849",
+					"jsonFile" : "target-NightlyMemCheck-Debug-1af20f080e1952f8d938.json",
+					"name" : "NightlyMemCheck",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "NightlyMemoryCheck::@a837cc0b56d261456849",
+					"jsonFile" : "target-NightlyMemoryCheck-Debug-e46ed41dde0b14f01887.json",
+					"name" : "NightlyMemoryCheck",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "NightlyStart::@a837cc0b56d261456849",
+					"jsonFile" : "target-NightlyStart-Debug-721b0254dddcf28ea802.json",
+					"name" : "NightlyStart",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "NightlySubmit::@a837cc0b56d261456849",
+					"jsonFile" : "target-NightlySubmit-Debug-e790eaf35e01d95579d5.json",
+					"name" : "NightlySubmit",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "NightlyTest::@a837cc0b56d261456849",
+					"jsonFile" : "target-NightlyTest-Debug-e33109e977d9a4f93cbe.json",
+					"name" : "NightlyTest",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "NightlyUpdate::@a837cc0b56d261456849",
+					"jsonFile" : "target-NightlyUpdate-Debug-b125db61bcd1034b41ea.json",
+					"name" : "NightlyUpdate",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Uvc_Support::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Uvc_Support-Debug-46a74e6f91ae06fb3040.json",
+					"name" : "Uvc_Support",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "jpeg9::@2b63d1e2e7684fce2e49",
+					"jsonFile" : "target-jpeg9-Debug-f718c93a11e35e83af0f.json",
+					"name" : "jpeg9",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "testlibusb::@a837cc0b56d261456849",
+					"jsonFile" : "target-testlibusb-Debug-e7ca82c8a57667b08d4e.json",
+					"name" : "testlibusb",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "usb1.0::@a837cc0b56d261456849",
+					"jsonFile" : "target-usb1.0-Debug-413f6611ef9896292554.json",
+					"name" : "usb1.0",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "uvc::@da8c77e360b72285274a",
+					"jsonFile" : "target-uvc-Debug-20271523a3b7de7e407e.json",
+					"name" : "uvc",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "uvc_preview::@4b16d1885309ab00dc2d",
+					"jsonFile" : "target-uvc_preview-Debug-fdabf3161f95903fe977.json",
+					"name" : "uvc_preview",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "yuv::@8ce9aa2ebcd041e2c14c",
+					"jsonFile" : "target-yuv-Debug-63d85e4b59bb9d612a84.json",
+					"name" : "yuv",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "yuv_shared::@8ce9aa2ebcd041e2c14c",
+					"jsonFile" : "target-yuv_shared-Debug-200da388981aa2a85dce.json",
+					"name" : "yuv_shared",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "yuvconvert::@8ce9aa2ebcd041e2c14c",
+					"jsonFile" : "target-yuvconvert-Debug-65a494a4d5dc1b499653.json",
+					"name" : "yuvconvert",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/edoardo/Desktop/newcameratrigger/newcameratrigger/app/.cxx/Debug/4y6k3k1w/x86",
+		"source" : "/Users/edoardo/Desktop/newcameratrigger/newcameratrigger/app/src/main/cpp/libUvc_Support"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

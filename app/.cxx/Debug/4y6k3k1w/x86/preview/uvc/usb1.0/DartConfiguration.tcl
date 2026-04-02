@@ -4,8 +4,8 @@
 
 
 # Configuration directories and files
-SourceDirectory: /Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libusb/cmake
-BuildDirectory: /Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/.cxx/Debug/4y6k3k1w/x86/preview/uvc/usb1.0
+SourceDirectory: /Users/edoardo/Desktop/newcameratrigger/newcameratrigger/app/src/main/cpp/libusb/cmake
+BuildDirectory: /Users/edoardo/Desktop/newcameratrigger/newcameratrigger/app/.cxx/Debug/4y6k3k1w/x86/preview/uvc/usb1.0
 
 # Where to place the cost data store
 CostDataFile: 
@@ -26,7 +26,7 @@ SubmitURL: http://
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "/Users/edoardo/Library/Android/sdk/cmake/3.22.1/bin/cmake" "/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libusb/cmake"
+ConfigureCommand: "/Users/edoardo/Library/Android/sdk/cmake/3.22.1/bin/cmake" "/Users/edoardo/Desktop/newcameratrigger/newcameratrigger/app/src/main/cpp/libusb/cmake"
 MakeCommand: /Users/edoardo/Library/Android/sdk/cmake/3.22.1/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}"
 DefaultCTestConfigurationType: Release
 

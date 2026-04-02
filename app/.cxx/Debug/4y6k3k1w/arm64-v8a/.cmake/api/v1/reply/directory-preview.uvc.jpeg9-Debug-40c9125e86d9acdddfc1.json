@@ -1,0 +1,64 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"/Users/edoardo/Desktop/newcameratrigger/newcameratrigger/app/src/main/cpp/libjpeg-version-9/libjpeg9/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 114,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 123,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "library",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"/Users/edoardo/Desktop/newcameratrigger/newcameratrigger/app/build/intermediates/cxx/Debug/4y6k3k1w/obj/arm64-v8a/libjpeg9.so"
+			],
+			"targetId" : "jpeg9::@2b63d1e2e7684fce2e49",
+			"targetIndex" : 29,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "include",
+			"paths" : 
+			[
+				"/Users/edoardo/Desktop/newcameratrigger/newcameratrigger/app/src/main/cpp/libjpeg-version-9/libjpeg9/jconfig.h",
+				"/Users/edoardo/Desktop/newcameratrigger/newcameratrigger/app/src/main/cpp/libjpeg-version-9/libjpeg9/jerror.h",
+				"/Users/edoardo/Desktop/newcameratrigger/newcameratrigger/app/src/main/cpp/libjpeg-version-9/libjpeg9/jmorecfg.h",
+				"/Users/edoardo/Desktop/newcameratrigger/newcameratrigger/app/src/main/cpp/libjpeg-version-9/libjpeg9/jpeglib.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "preview/uvc/jpeg9",
+		"source" : "/Users/edoardo/Desktop/newcameratrigger/newcameratrigger/app/src/main/cpp/libjpeg-version-9/libjpeg9"
+	}
+}

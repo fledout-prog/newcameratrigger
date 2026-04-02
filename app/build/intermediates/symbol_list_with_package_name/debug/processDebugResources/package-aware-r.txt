@@ -1625,6 +1625,7 @@ id position
 id postLayout
 id power_line_frequency
 id pressed_state
+id previewSwitch
 id progressBar
 id progressBarText
 id progress_circular
@@ -1765,6 +1766,7 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id triggerStatusText
 id tv_dialog_content_desc
 id tv_dialog_title
 id two

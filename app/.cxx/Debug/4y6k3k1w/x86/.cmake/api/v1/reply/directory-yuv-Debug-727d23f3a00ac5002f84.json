@@ -1,0 +1,98 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"INSTALL"
+		],
+		"files" : 
+		[
+			"/Users/edoardo/Desktop/newcameratrigger/newcameratrigger/app/src/main/cpp/libyuv/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 87,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 88,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 89,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 90,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"/Users/edoardo/Desktop/newcameratrigger/newcameratrigger/app/.cxx/Debug/4y6k3k1w/x86/yuvconvert"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"yuv/libyuv.a"
+			],
+			"targetId" : "yuv::@8ce9aa2ebcd041e2c14c",
+			"targetIndex" : 34,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"/Users/edoardo/Desktop/newcameratrigger/newcameratrigger/app/build/intermediates/cxx/Debug/4y6k3k1w/obj/x86/libyuv.so"
+			],
+			"targetId" : "yuv_shared::@8ce9aa2ebcd041e2c14c",
+			"targetIndex" : 35,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "include",
+			"paths" : 
+			[
+				{
+					"from" : "/Users/edoardo/Desktop/newcameratrigger/newcameratrigger/app/src/main/cpp/libyuv/include",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "yuv",
+		"source" : "/Users/edoardo/Desktop/newcameratrigger/newcameratrigger/app/src/main/cpp/libyuv"
+	}
+}

@@ -65,4 +65,4 @@
 -- Performing Test HAVE_VISIBILITY - Success
 -- Configuring done
 -- Generating done
--- Build files have been written to: /Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/.cxx/Debug/4y6k3k1w/arm64-v8a
+-- Build files have been written to: /Users/edoardo/Desktop/newcameratrigger/newcameratrigger/app/.cxx/Debug/4y6k3k1w/arm64-v8a

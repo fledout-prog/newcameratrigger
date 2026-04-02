@@ -1,4 +1,4 @@
-# Install script for directory: /Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libUvc_Support/UVC_Camera_Saki
+# Install script for directory: /Users/edoardo/Desktop/newcameratrigger/newcameratrigger/app/src/main/cpp/libUvc_Support/UVC_Camera_Saki
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,7 +44,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/.cxx/Debug/4y6k3k1w/arm64-v8a/preview/uvc/cmake_install.cmake")
+  include("/Users/edoardo/Desktop/newcameratrigger/newcameratrigger/app/.cxx/Debug/4y6k3k1w/arm64-v8a/preview/uvc/cmake_install.cmake")
 
 endif()
 

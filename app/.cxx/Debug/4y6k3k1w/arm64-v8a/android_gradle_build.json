@@ -1,24 +1,24 @@
 {
   "buildFiles": [
-    "/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libUvc_Support/CMakeLists.txt",
-    "/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libUvc_Support/UVC_Camera_Saki/CMakeLists.txt",
-    "/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libjpeg-version-9/libjpeg9/CMakeLists.txt",
-    "/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libusb/cmake/CMakeLists.txt",
-    "/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libuvc/CMakeLists.txt",
-    "/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libyuv/CMakeLists.txt"
+    "/Users/edoardo/Desktop/newcameratrigger/newcameratrigger/app/src/main/cpp/libUvc_Support/CMakeLists.txt",
+    "/Users/edoardo/Desktop/newcameratrigger/newcameratrigger/app/src/main/cpp/libUvc_Support/UVC_Camera_Saki/CMakeLists.txt",
+    "/Users/edoardo/Desktop/newcameratrigger/newcameratrigger/app/src/main/cpp/libjpeg-version-9/libjpeg9/CMakeLists.txt",
+    "/Users/edoardo/Desktop/newcameratrigger/newcameratrigger/app/src/main/cpp/libusb/cmake/CMakeLists.txt",
+    "/Users/edoardo/Desktop/newcameratrigger/newcameratrigger/app/src/main/cpp/libuvc/CMakeLists.txt",
+    "/Users/edoardo/Desktop/newcameratrigger/newcameratrigger/app/src/main/cpp/libyuv/CMakeLists.txt"
   ],
   "cleanCommandsComponents": [
     [
       "/Users/edoardo/Library/Android/sdk/cmake/3.22.1/bin/ninja",
       "-C",
-      "/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/.cxx/Debug/4y6k3k1w/arm64-v8a",
+      "/Users/edoardo/Desktop/newcameratrigger/newcameratrigger/app/.cxx/Debug/4y6k3k1w/arm64-v8a",
       "clean"
     ]
   ],
   "buildTargetsCommandComponents": [
     "/Users/edoardo/Library/Android/sdk/cmake/3.22.1/bin/ninja",
     "-C",
-    "/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/.cxx/Debug/4y6k3k1w/arm64-v8a",
+    "/Users/edoardo/Desktop/newcameratrigger/newcameratrigger/app/.cxx/Debug/4y6k3k1w/arm64-v8a",
     "{LIST_OF_TARGETS_TO_BUILD}"
   ],
   "libraries": {
@@ -166,76 +166,76 @@
       "toolchain": "toolchain",
       "abi": "arm64-v8a",
       "artifactName": "Uvc_Support",
-      "output": "/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/build/intermediates/cxx/Debug/4y6k3k1w/obj/arm64-v8a/libUvc_Support.so",
+      "output": "/Users/edoardo/Desktop/newcameratrigger/newcameratrigger/app/build/intermediates/cxx/Debug/4y6k3k1w/obj/arm64-v8a/libUvc_Support.so",
       "runtimeFiles": [
-        "/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/build/intermediates/cxx/Debug/4y6k3k1w/obj/arm64-v8a/libuvc_preview.so",
-        "/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/build/intermediates/cxx/Debug/4y6k3k1w/obj/arm64-v8a/libuvc.so",
-        "/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/build/intermediates/cxx/Debug/4y6k3k1w/obj/arm64-v8a/libusb1.0.so",
-        "/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/build/intermediates/cxx/Debug/4y6k3k1w/obj/arm64-v8a/libjpeg9.so"
+        "/Users/edoardo/Desktop/newcameratrigger/newcameratrigger/app/build/intermediates/cxx/Debug/4y6k3k1w/obj/arm64-v8a/libuvc_preview.so",
+        "/Users/edoardo/Desktop/newcameratrigger/newcameratrigger/app/build/intermediates/cxx/Debug/4y6k3k1w/obj/arm64-v8a/libuvc.so",
+        "/Users/edoardo/Desktop/newcameratrigger/newcameratrigger/app/build/intermediates/cxx/Debug/4y6k3k1w/obj/arm64-v8a/libusb1.0.so",
+        "/Users/edoardo/Desktop/newcameratrigger/newcameratrigger/app/build/intermediates/cxx/Debug/4y6k3k1w/obj/arm64-v8a/libjpeg9.so"
       ]
     },
     "jpeg9::@2b63d1e2e7684fce2e49": {
       "toolchain": "toolchain",
       "abi": "arm64-v8a",
       "artifactName": "jpeg9",
-      "output": "/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/build/intermediates/cxx/Debug/4y6k3k1w/obj/arm64-v8a/libjpeg9.so",
+      "output": "/Users/edoardo/Desktop/newcameratrigger/newcameratrigger/app/build/intermediates/cxx/Debug/4y6k3k1w/obj/arm64-v8a/libjpeg9.so",
       "runtimeFiles": []
     },
     "testlibusb::@a837cc0b56d261456849": {
       "toolchain": "toolchain",
       "abi": "arm64-v8a",
       "artifactName": "testlibusb",
-      "output": "/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/build/intermediates/cxx/Debug/4y6k3k1w/obj/arm64-v8a/testlibusb",
+      "output": "/Users/edoardo/Desktop/newcameratrigger/newcameratrigger/app/build/intermediates/cxx/Debug/4y6k3k1w/obj/arm64-v8a/testlibusb",
       "runtimeFiles": [
-        "/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/build/intermediates/cxx/Debug/4y6k3k1w/obj/arm64-v8a/libusb1.0.so"
+        "/Users/edoardo/Desktop/newcameratrigger/newcameratrigger/app/build/intermediates/cxx/Debug/4y6k3k1w/obj/arm64-v8a/libusb1.0.so"
       ]
     },
     "usb1.0::@a837cc0b56d261456849": {
       "toolchain": "toolchain",
       "abi": "arm64-v8a",
       "artifactName": "usb1.0",
-      "output": "/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/build/intermediates/cxx/Debug/4y6k3k1w/obj/arm64-v8a/libusb1.0.so",
+      "output": "/Users/edoardo/Desktop/newcameratrigger/newcameratrigger/app/build/intermediates/cxx/Debug/4y6k3k1w/obj/arm64-v8a/libusb1.0.so",
       "runtimeFiles": []
     },
     "uvc::@da8c77e360b72285274a": {
       "toolchain": "toolchain",
       "abi": "arm64-v8a",
       "artifactName": "uvc",
-      "output": "/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/build/intermediates/cxx/Debug/4y6k3k1w/obj/arm64-v8a/libuvc.so",
+      "output": "/Users/edoardo/Desktop/newcameratrigger/newcameratrigger/app/build/intermediates/cxx/Debug/4y6k3k1w/obj/arm64-v8a/libuvc.so",
       "runtimeFiles": [
-        "/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/build/intermediates/cxx/Debug/4y6k3k1w/obj/arm64-v8a/libusb1.0.so",
-        "/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/build/intermediates/cxx/Debug/4y6k3k1w/obj/arm64-v8a/libjpeg9.so"
+        "/Users/edoardo/Desktop/newcameratrigger/newcameratrigger/app/build/intermediates/cxx/Debug/4y6k3k1w/obj/arm64-v8a/libusb1.0.so",
+        "/Users/edoardo/Desktop/newcameratrigger/newcameratrigger/app/build/intermediates/cxx/Debug/4y6k3k1w/obj/arm64-v8a/libjpeg9.so"
       ]
     },
     "uvc_preview::@4b16d1885309ab00dc2d": {
       "toolchain": "toolchain",
       "abi": "arm64-v8a",
       "artifactName": "uvc_preview",
-      "output": "/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/build/intermediates/cxx/Debug/4y6k3k1w/obj/arm64-v8a/libuvc_preview.so",
+      "output": "/Users/edoardo/Desktop/newcameratrigger/newcameratrigger/app/build/intermediates/cxx/Debug/4y6k3k1w/obj/arm64-v8a/libuvc_preview.so",
       "runtimeFiles": [
-        "/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/build/intermediates/cxx/Debug/4y6k3k1w/obj/arm64-v8a/libuvc.so",
-        "/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/build/intermediates/cxx/Debug/4y6k3k1w/obj/arm64-v8a/libusb1.0.so",
-        "/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/build/intermediates/cxx/Debug/4y6k3k1w/obj/arm64-v8a/libjpeg9.so"
+        "/Users/edoardo/Desktop/newcameratrigger/newcameratrigger/app/build/intermediates/cxx/Debug/4y6k3k1w/obj/arm64-v8a/libuvc.so",
+        "/Users/edoardo/Desktop/newcameratrigger/newcameratrigger/app/build/intermediates/cxx/Debug/4y6k3k1w/obj/arm64-v8a/libusb1.0.so",
+        "/Users/edoardo/Desktop/newcameratrigger/newcameratrigger/app/build/intermediates/cxx/Debug/4y6k3k1w/obj/arm64-v8a/libjpeg9.so"
       ]
     },
     "yuv::@8ce9aa2ebcd041e2c14c": {
       "toolchain": "toolchain",
       "abi": "arm64-v8a",
       "artifactName": "yuv",
-      "output": "/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/.cxx/Debug/4y6k3k1w/arm64-v8a/yuv/libyuv.a"
+      "output": "/Users/edoardo/Desktop/newcameratrigger/newcameratrigger/app/.cxx/Debug/4y6k3k1w/arm64-v8a/yuv/libyuv.a"
     },
     "yuv_shared::@8ce9aa2ebcd041e2c14c": {
       "toolchain": "toolchain",
       "abi": "arm64-v8a",
       "artifactName": "yuv_shared",
-      "output": "/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/build/intermediates/cxx/Debug/4y6k3k1w/obj/arm64-v8a/libyuv.so",
+      "output": "/Users/edoardo/Desktop/newcameratrigger/newcameratrigger/app/build/intermediates/cxx/Debug/4y6k3k1w/obj/arm64-v8a/libyuv.so",
       "runtimeFiles": []
     },
     "yuvconvert::@8ce9aa2ebcd041e2c14c": {
       "toolchain": "toolchain",
       "abi": "arm64-v8a",
       "artifactName": "yuvconvert",
-      "output": "/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/build/intermediates/cxx/Debug/4y6k3k1w/obj/arm64-v8a/yuvconvert",
+      "output": "/Users/edoardo/Desktop/newcameratrigger/newcameratrigger/app/build/intermediates/cxx/Debug/4y6k3k1w/obj/arm64-v8a/yuvconvert",
       "runtimeFiles": []
     }
   },

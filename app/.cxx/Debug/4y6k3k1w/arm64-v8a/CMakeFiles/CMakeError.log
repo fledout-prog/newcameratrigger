@@ -1,32 +1,32 @@
 Determining if the function pthread_threadid_np exists failed with the following output:
-Change Dir: /Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/.cxx/Debug/4y6k3k1w/arm64-v8a/CMakeFiles/CMakeTmp
+Change Dir: /Users/edoardo/Desktop/newcameratrigger/newcameratrigger/app/.cxx/Debug/4y6k3k1w/arm64-v8a/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/Users/edoardo/Library/Android/sdk/cmake/3.22.1/bin/ninja cmTC_b8965 && [1/2] Building C object CMakeFiles/cmTC_b8965.dir/CheckFunctionExists.c.o
-[2/2] Linking C executable cmTC_b8965
-FAILED: cmTC_b8965 
-: && /Users/edoardo/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android21 --sysroot=/Users/edoardo/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -DCHECK_FUNCTION_EXISTS=pthread_threadid_np -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments CMakeFiles/cmTC_b8965.dir/CheckFunctionExists.c.o -o cmTC_b8965  -latomic -lm && :
+Run Build Command(s):/Users/edoardo/Library/Android/sdk/cmake/3.22.1/bin/ninja cmTC_b44fc && [1/2] Building C object CMakeFiles/cmTC_b44fc.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_b44fc
+FAILED: cmTC_b44fc 
+: && /Users/edoardo/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android21 --sysroot=/Users/edoardo/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -DCHECK_FUNCTION_EXISTS=pthread_threadid_np -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments CMakeFiles/cmTC_b44fc.dir/CheckFunctionExists.c.o -o cmTC_b44fc  -latomic -lm && :
 ld.lld: error: undefined symbol: pthread_threadid_np
 >>> referenced by CheckFunctionExists.c:17 (/Users/edoardo/Library/Android/sdk/cmake/3.22.1/share/cmake-3.22/Modules/CheckFunctionExists.c:17)
->>>               CMakeFiles/cmTC_b8965.dir/CheckFunctionExists.c.o:(main)
+>>>               CMakeFiles/cmTC_b44fc.dir/CheckFunctionExists.c.o:(main)
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
 ninja: build stopped: subcommand failed.
 
 
 
 Determining if the TFD_CLOEXEC exist failed with the following output:
-Change Dir: /Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/.cxx/Debug/4y6k3k1w/arm64-v8a/CMakeFiles/CMakeTmp
+Change Dir: /Users/edoardo/Desktop/newcameratrigger/newcameratrigger/app/.cxx/Debug/4y6k3k1w/arm64-v8a/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/Users/edoardo/Library/Android/sdk/cmake/3.22.1/bin/ninja cmTC_0f352 && [1/2] Building C object CMakeFiles/cmTC_0f352.dir/CheckSymbolExists.c.o
-FAILED: CMakeFiles/cmTC_0f352.dir/CheckSymbolExists.c.o 
-/Users/edoardo/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android21 --sysroot=/Users/edoardo/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIE -MD -MT CMakeFiles/cmTC_0f352.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_0f352.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_0f352.dir/CheckSymbolExists.c.o -c /Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/.cxx/Debug/4y6k3k1w/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/.cxx/Debug/4y6k3k1w/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: use of undeclared identifier 'TFD_CLOEXEC'
+Run Build Command(s):/Users/edoardo/Library/Android/sdk/cmake/3.22.1/bin/ninja cmTC_ecb50 && [1/2] Building C object CMakeFiles/cmTC_ecb50.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_ecb50.dir/CheckSymbolExists.c.o 
+/Users/edoardo/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android21 --sysroot=/Users/edoardo/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIE -MD -MT CMakeFiles/cmTC_ecb50.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_ecb50.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_ecb50.dir/CheckSymbolExists.c.o -c /Users/edoardo/Desktop/newcameratrigger/newcameratrigger/app/.cxx/Debug/4y6k3k1w/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/Users/edoardo/Desktop/newcameratrigger/newcameratrigger/app/.cxx/Debug/4y6k3k1w/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: use of undeclared identifier 'TFD_CLOEXEC'
   return ((int*)(&TFD_CLOEXEC))[argc];
                   ^
 1 error generated.
 ninja: build stopped: subcommand failed.
 
 
-File /Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/.cxx/Debug/4y6k3k1w/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /Users/edoardo/Desktop/newcameratrigger/newcameratrigger/app/.cxx/Debug/4y6k3k1w/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <sys/eventfd.h>
 

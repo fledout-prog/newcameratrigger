@@ -1,14 +1,14 @@
-#Thu Apr 02 12:59:36 CEST 2026
-base.0=/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
-base.1=/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
-base.2=/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/build/intermediates/dex/debug/mergeProjectDexDebug/10/classes.dex
-base.3=/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/build/intermediates/dex/debug/mergeProjectDexDebug/11/classes.dex
-base.4=/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/build/intermediates/dex/debug/mergeProjectDexDebug/14/classes.dex
-base.5=/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/build/intermediates/dex/debug/mergeProjectDexDebug/2/classes.dex
-base.6=/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/build/intermediates/dex/debug/mergeProjectDexDebug/3/classes.dex
-base.7=/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/build/intermediates/dex/debug/mergeProjectDexDebug/4/classes.dex
-base.8=/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/build/intermediates/dex/debug/mergeProjectDexDebug/7/classes.dex
-base.9=/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/build/intermediates/dex/debug/mergeProjectDexDebug/9/classes.dex
+#Thu Apr 02 15:01:22 CEST 2026
+base.0=/Users/edoardo/Desktop/newcameratrigger/newcameratrigger/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
+base.1=/Users/edoardo/Desktop/newcameratrigger/newcameratrigger/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
+base.2=/Users/edoardo/Desktop/newcameratrigger/newcameratrigger/app/build/intermediates/dex/debug/mergeProjectDexDebug/10/classes.dex
+base.3=/Users/edoardo/Desktop/newcameratrigger/newcameratrigger/app/build/intermediates/dex/debug/mergeProjectDexDebug/11/classes.dex
+base.4=/Users/edoardo/Desktop/newcameratrigger/newcameratrigger/app/build/intermediates/dex/debug/mergeProjectDexDebug/14/classes.dex
+base.5=/Users/edoardo/Desktop/newcameratrigger/newcameratrigger/app/build/intermediates/dex/debug/mergeProjectDexDebug/2/classes.dex
+base.6=/Users/edoardo/Desktop/newcameratrigger/newcameratrigger/app/build/intermediates/dex/debug/mergeProjectDexDebug/3/classes.dex
+base.7=/Users/edoardo/Desktop/newcameratrigger/newcameratrigger/app/build/intermediates/dex/debug/mergeProjectDexDebug/4/classes.dex
+base.8=/Users/edoardo/Desktop/newcameratrigger/newcameratrigger/app/build/intermediates/dex/debug/mergeProjectDexDebug/7/classes.dex
+base.9=/Users/edoardo/Desktop/newcameratrigger/newcameratrigger/app/build/intermediates/dex/debug/mergeProjectDexDebug/9/classes.dex
 path.0=classes.dex
 path.1=0/classes.dex
 path.2=10/classes.dex

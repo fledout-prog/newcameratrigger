@@ -1,4 +1,4 @@
-# Install script for directory: /Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libjpeg-version-9/libjpeg9
+# Install script for directory: /Users/edoardo/Desktop/newcameratrigger/newcameratrigger/app/src/main/cpp/libjpeg-version-9/libjpeg9
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -49,7 +49,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xlibraryx" OR NOT CMAKE_INSTALL_COMP
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libjpeg9.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/build/intermediates/cxx/Debug/4y6k3k1w/obj/arm64-v8a/libjpeg9.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/Users/edoardo/Desktop/newcameratrigger/newcameratrigger/app/build/intermediates/cxx/Debug/4y6k3k1w/obj/arm64-v8a/libjpeg9.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libjpeg9.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libjpeg9.so")
     if(CMAKE_INSTALL_DO_STRIP)
@@ -63,10 +63,10 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE FILES
-    "/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libjpeg-version-9/libjpeg9/jconfig.h"
-    "/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libjpeg-version-9/libjpeg9/jerror.h"
-    "/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libjpeg-version-9/libjpeg9/jmorecfg.h"
-    "/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libjpeg-version-9/libjpeg9/jpeglib.h"
+    "/Users/edoardo/Desktop/newcameratrigger/newcameratrigger/app/src/main/cpp/libjpeg-version-9/libjpeg9/jconfig.h"
+    "/Users/edoardo/Desktop/newcameratrigger/newcameratrigger/app/src/main/cpp/libjpeg-version-9/libjpeg9/jerror.h"
+    "/Users/edoardo/Desktop/newcameratrigger/newcameratrigger/app/src/main/cpp/libjpeg-version-9/libjpeg9/jmorecfg.h"
+    "/Users/edoardo/Desktop/newcameratrigger/newcameratrigger/app/src/main/cpp/libjpeg-version-9/libjpeg9/jpeglib.h"
     )
 endif()
 

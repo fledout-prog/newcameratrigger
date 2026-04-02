@@ -1,4 +1,4 @@
-# Install script for directory: /Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libuvc
+# Install script for directory: /Users/edoardo/Desktop/newcameratrigger/newcameratrigger/app/src/main/cpp/libuvc
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -57,7 +57,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/usr/local/lib" TYPE SHARED_LIBRARY FILES "/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/build/intermediates/cxx/Debug/4y6k3k1w/obj/x86/libuvc.so")
+  file(INSTALL DESTINATION "/usr/local/lib" TYPE SHARED_LIBRARY FILES "/Users/edoardo/Desktop/newcameratrigger/newcameratrigger/app/build/intermediates/cxx/Debug/4y6k3k1w/obj/x86/libuvc.so")
   if(EXISTS "$ENV{DESTDIR}/usr/local/lib/libuvc.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}/usr/local/lib/libuvc.so")
     if(CMAKE_INSTALL_DO_STRIP)
@@ -79,8 +79,8 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   file(INSTALL DESTINATION "/usr/local/include/libuvc" TYPE FILE FILES
-    "/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libuvc/include/libuvc/libuvc.h"
-    "/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/.cxx/Debug/4y6k3k1w/x86/preview/uvc/include/libuvc/libuvc_config.h"
+    "/Users/edoardo/Desktop/newcameratrigger/newcameratrigger/app/src/main/cpp/libuvc/include/libuvc/libuvc.h"
+    "/Users/edoardo/Desktop/newcameratrigger/newcameratrigger/app/.cxx/Debug/4y6k3k1w/x86/preview/uvc/include/libuvc/libuvc_config.h"
     )
 endif()
 
@@ -94,15 +94,15 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   file(INSTALL DESTINATION "/usr/local/lib/cmake/libuvc" TYPE FILE FILES
-    "/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/.cxx/Debug/4y6k3k1w/x86/preview/uvc/CMakeFiles/libuvcConfig.cmake"
-    "/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/.cxx/Debug/4y6k3k1w/x86/preview/uvc/libuvcConfigVersion.cmake"
+    "/Users/edoardo/Desktop/newcameratrigger/newcameratrigger/app/.cxx/Debug/4y6k3k1w/x86/preview/uvc/CMakeFiles/libuvcConfig.cmake"
+    "/Users/edoardo/Desktop/newcameratrigger/newcameratrigger/app/.cxx/Debug/4y6k3k1w/x86/preview/uvc/libuvcConfigVersion.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/.cxx/Debug/4y6k3k1w/x86/preview/uvc/usb1.0/cmake_install.cmake")
-  include("/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/.cxx/Debug/4y6k3k1w/x86/preview/uvc/jpeg9/cmake_install.cmake")
+  include("/Users/edoardo/Desktop/newcameratrigger/newcameratrigger/app/.cxx/Debug/4y6k3k1w/x86/preview/uvc/usb1.0/cmake_install.cmake")
+  include("/Users/edoardo/Desktop/newcameratrigger/newcameratrigger/app/.cxx/Debug/4y6k3k1w/x86/preview/uvc/jpeg9/cmake_install.cmake")
 
 endif()
 

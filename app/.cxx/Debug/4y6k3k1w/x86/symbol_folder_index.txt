@@ -1,1 +1,1 @@
-/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/build/intermediates/cxx/Debug/4y6k3k1w/obj/x86
+/Users/edoardo/Desktop/newcameratrigger/newcameratrigger/app/build/intermediates/cxx/Debug/4y6k3k1w/obj/x86

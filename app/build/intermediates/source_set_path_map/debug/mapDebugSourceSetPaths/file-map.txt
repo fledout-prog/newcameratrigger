@@ -12,9 +12,9 @@ humer.UvcCamera.app-recyclerview-v7-26.1.0-10 /Users/edoardo/.gradle/caches/tran
 humer.UvcCamera.app-fab-speed-dial-1.0.7-11 /Users/edoardo/.gradle/caches/transforms-4/bea106ad94e0ab52688968ee0df72a2e/transformed/fab-speed-dial-1.0.7/res
 humer.UvcCamera.app-constraint-layout-2.0.4-12 /Users/edoardo/.gradle/caches/transforms-4/c02216c6a7f8b1c60eddfe3f1d7bc5eb/transformed/constraint-layout-2.0.4/res
 humer.UvcCamera.app-floatingedittext-1.0.5-13 /Users/edoardo/.gradle/caches/transforms-4/e5f7c4218af59d26459c449f0540332c/transformed/floatingedittext-1.0.5/res
-humer.UvcCamera.app-resValues-14 /Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/build/generated/res/resValues/debug
-humer.UvcCamera.app-mergeDebugResources-15 /Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir
-humer.UvcCamera.app-mergeDebugResources-16 /Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/build/intermediates/incremental/debug/mergeDebugResources/stripped.dir
-humer.UvcCamera.app-debug-17 /Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/build/intermediates/merged_res/debug/mergeDebugResources
-humer.UvcCamera.app-debug-18 /Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/debug/res
-humer.UvcCamera.app-main-19 /Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/res
+humer.UvcCamera.app-resValues-14 /Users/edoardo/Desktop/newcameratrigger/newcameratrigger/app/build/generated/res/resValues/debug
+humer.UvcCamera.app-mergeDebugResources-15 /Users/edoardo/Desktop/newcameratrigger/newcameratrigger/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir
+humer.UvcCamera.app-mergeDebugResources-16 /Users/edoardo/Desktop/newcameratrigger/newcameratrigger/app/build/intermediates/incremental/debug/mergeDebugResources/stripped.dir
+humer.UvcCamera.app-debug-17 /Users/edoardo/Desktop/newcameratrigger/newcameratrigger/app/build/intermediates/merged_res/debug/mergeDebugResources
+humer.UvcCamera.app-debug-18 /Users/edoardo/Desktop/newcameratrigger/newcameratrigger/app/src/debug/res
+humer.UvcCamera.app-main-19 /Users/edoardo/Desktop/newcameratrigger/newcameratrigger/app/src/main/res

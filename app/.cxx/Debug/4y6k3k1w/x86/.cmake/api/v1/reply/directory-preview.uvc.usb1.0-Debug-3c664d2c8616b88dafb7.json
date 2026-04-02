@@ -1,0 +1,61 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"/Users/edoardo/Desktop/newcameratrigger/newcameratrigger/app/src/main/cpp/libusb/cmake/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 138,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 145,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "library",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"/Users/edoardo/Desktop/newcameratrigger/newcameratrigger/app/build/intermediates/cxx/Debug/4y6k3k1w/obj/x86/libusb1.0.so"
+			],
+			"targetId" : "usb1.0::@a837cc0b56d261456849",
+			"targetIndex" : 31,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "include/libusb1.0",
+			"paths" : 
+			[
+				"/Users/edoardo/Desktop/newcameratrigger/newcameratrigger/app/src/main/cpp/libusb/cmake/../libusb/libusb.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "preview/uvc/usb1.0",
+		"source" : "/Users/edoardo/Desktop/newcameratrigger/newcameratrigger/app/src/main/cpp/libusb/cmake"
+	}
+}

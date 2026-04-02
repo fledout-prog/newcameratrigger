@@ -1,4 +1,4 @@
-CMake Deprecation Warning at /Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libyuv/CMakeLists.txt:6 (CMAKE_MINIMUM_REQUIRED):
+CMake Deprecation Warning at /Users/edoardo/Desktop/newcameratrigger/newcameratrigger/app/src/main/cpp/libyuv/CMakeLists.txt:6 (CMAKE_MINIMUM_REQUIRED):
   Compatibility with CMake < 2.8.12 will be removed from a future version of
   CMake.
 
@@ -6,7 +6,7 @@ CMake Deprecation Warning at /Users/edoardo/Desktop/FEDE/Android-UVC-Camera-mast
   CMake that the project does not need compatibility with older versions.
 
 
-CMake Warning (dev) at /Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libyuv/CMakeLists.txt:45 (if):
+CMake Warning (dev) at /Users/edoardo/Desktop/newcameratrigger/newcameratrigger/app/src/main/cpp/libyuv/CMakeLists.txt:45 (if):
   Policy CMP0064 is not set: Support new TEST if() operator.  Run "cmake
   --help-policy CMP0064" for policy details.  Use the cmake_policy command to
   set the policy and suppress this warning.
@@ -22,7 +22,7 @@ usage: grep [-abcdDEFGHhIiJLlMmnOopqRSsUVvwXxZz] [-A num] [-B num] [-C[num]]
 	[--null] [pattern] [file ...]
 Building ver.: 0.0.
 Packaging for: x86-32
-CMake Deprecation Warning at /Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libuvc/CMakeLists.txt:1 (cmake_minimum_required):
+CMake Deprecation Warning at /Users/edoardo/Desktop/newcameratrigger/newcameratrigger/app/src/main/cpp/libuvc/CMakeLists.txt:1 (cmake_minimum_required):
   Compatibility with CMake < 2.8.12 will be removed from a future version of
   CMake.
 

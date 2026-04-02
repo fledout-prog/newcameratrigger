@@ -8,9 +8,9 @@
     "triple": "aarch64-linux-android",
     "llvmTriple": "aarch64-none-linux-android"
   },
-  "cxxBuildFolder": "/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/.cxx/Debug/4y6k3k1w/arm64-v8a",
-  "soFolder": "/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/build/intermediates/cxx/Debug/4y6k3k1w/obj/arm64-v8a",
-  "soRepublishFolder": "/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/build/intermediates/cmake/customDebugType/obj/arm64-v8a",
+  "cxxBuildFolder": "/Users/edoardo/Desktop/newcameratrigger/newcameratrigger/app/.cxx/Debug/4y6k3k1w/arm64-v8a",
+  "soFolder": "/Users/edoardo/Desktop/newcameratrigger/newcameratrigger/app/build/intermediates/cxx/Debug/4y6k3k1w/obj/arm64-v8a",
+  "soRepublishFolder": "/Users/edoardo/Desktop/newcameratrigger/newcameratrigger/app/build/intermediates/cmake/customDebugType/obj/arm64-v8a",
   "abiPlatformVersion": 15,
   "cmake": {
     "effectiveConfiguration": {
@@ -31,13 +31,13 @@
     "implicitBuildTargetSet": [],
     "cmakeSettingsConfiguration": "android-gradle-plugin-predetermined-name",
     "module": {
-      "cxxFolder": "/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/.cxx",
-      "intermediatesBaseFolder": "/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/build/intermediates",
-      "intermediatesFolder": "/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/build/intermediates/cxx",
+      "cxxFolder": "/Users/edoardo/Desktop/newcameratrigger/newcameratrigger/app/.cxx",
+      "intermediatesBaseFolder": "/Users/edoardo/Desktop/newcameratrigger/newcameratrigger/app/build/intermediates",
+      "intermediatesFolder": "/Users/edoardo/Desktop/newcameratrigger/newcameratrigger/app/build/intermediates/cxx",
       "gradleModulePathName": ":app",
-      "moduleRootFolder": "/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app",
-      "moduleBuildFile": "/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/build.gradle",
-      "makeFile": "/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libUvc_Support/CMakeLists.txt",
+      "moduleRootFolder": "/Users/edoardo/Desktop/newcameratrigger/newcameratrigger/app",
+      "moduleBuildFile": "/Users/edoardo/Desktop/newcameratrigger/newcameratrigger/app/build.gradle",
+      "makeFile": "/Users/edoardo/Desktop/newcameratrigger/newcameratrigger/app/src/main/cpp/libUvc_Support/CMakeLists.txt",
       "buildSystem": "CMAKE",
       "ndkFolder": "/Users/edoardo/Library/Android/sdk/ndk/26.1.10909125",
       "ndkFolderBeforeSymLinking": "/Users/edoardo/Library/Android/sdk/ndk/26.1.10909125",
@@ -135,7 +135,7 @@
         "SYSTEM": {}
       },
       "project": {
-        "rootBuildGradleFolder": "/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master",
+        "rootBuildGradleFolder": "/Users/edoardo/Desktop/newcameratrigger/newcameratrigger",
         "sdkFolder": "/Users/edoardo/Library/Android/sdk",
         "isBuildOnlyTargetAbiEnabled": true,
         "ideBuildTargetAbi": "arm64-v8a,armeabi-v7a,armeabi",
@@ -155,12 +155,12 @@
   "buildSettings": {
     "environmentVariables": []
   },
-  "prefabFolder": "/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/.cxx/Debug/4y6k3k1w/prefab/arm64-v8a",
+  "prefabFolder": "/Users/edoardo/Desktop/newcameratrigger/newcameratrigger/app/.cxx/Debug/4y6k3k1w/prefab/arm64-v8a",
   "isActiveAbi": true,
   "fullConfigurationHash": "4y6k3k1wa6j242g671z5pe1a68503a5l6c19f6y3k1tx414r3mm83c6j1z",
   "fullConfigurationHashKey": "# Values used to calculate the hash in this folder name.\n# Should not depend on the absolute path of the project itself.\n#   - AGP: 8.5.0.\n#   - $NDK is the path to NDK 26.1.10909125.\n#   - $PROJECT is the path to the parent folder of the root Gradle build file.\n#   - $ABI is the ABI to be built with. The specific value doesn\u0027t contribute to the value of the hash.\n#   - $HASH is the hash value computed from this text.\n#   - $CMAKE is the path to CMake 3.22.1.\n#   - $NINJA is the path to Ninja.\n-H$PROJECT/app/src/main/cpp/libUvc_Support\n-DCMAKE_SYSTEM_NAME\u003dAndroid\n-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON\n-DCMAKE_SYSTEM_VERSION\u003d15\n-DANDROID_PLATFORM\u003dandroid-15\n-DANDROID_ABI\u003d$ABI\n-DCMAKE_ANDROID_ARCH_ABI\u003d$ABI\n-DANDROID_NDK\u003d$NDK\n-DCMAKE_ANDROID_NDK\u003d$NDK\n-DCMAKE_TOOLCHAIN_FILE\u003d$NDK/build/cmake/android.toolchain.cmake\n-DCMAKE_MAKE_PROGRAM\u003d$NINJA\n-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003d$PROJECT/app/build/intermediates/cxx/Debug/$HASH/obj/$ABI\n-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003d$PROJECT/app/build/intermediates/cxx/Debug/$HASH/obj/$ABI\n-DCMAKE_BUILD_TYPE\u003dDebug\n-B$PROJECT/app/.cxx/Debug/$HASH/$ABI\n-GNinja",
   "configurationArguments": [
-    "-H/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/src/main/cpp/libUvc_Support",
+    "-H/Users/edoardo/Desktop/newcameratrigger/newcameratrigger/app/src/main/cpp/libUvc_Support",
     "-DCMAKE_SYSTEM_NAME\u003dAndroid",
     "-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON",
     "-DCMAKE_SYSTEM_VERSION\u003d15",
@@ -171,11 +171,11 @@
     "-DCMAKE_ANDROID_NDK\u003d/Users/edoardo/Library/Android/sdk/ndk/26.1.10909125",
     "-DCMAKE_TOOLCHAIN_FILE\u003d/Users/edoardo/Library/Android/sdk/ndk/26.1.10909125/build/cmake/android.toolchain.cmake",
     "-DCMAKE_MAKE_PROGRAM\u003d/Users/edoardo/Library/Android/sdk/cmake/3.22.1/bin/ninja",
-    "-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003d/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/build/intermediates/cxx/Debug/4y6k3k1w/obj/arm64-v8a",
-    "-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003d/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/build/intermediates/cxx/Debug/4y6k3k1w/obj/arm64-v8a",
+    "-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003d/Users/edoardo/Desktop/newcameratrigger/newcameratrigger/app/build/intermediates/cxx/Debug/4y6k3k1w/obj/arm64-v8a",
+    "-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003d/Users/edoardo/Desktop/newcameratrigger/newcameratrigger/app/build/intermediates/cxx/Debug/4y6k3k1w/obj/arm64-v8a",
     "-DCMAKE_BUILD_TYPE\u003dDebug",
-    "-B/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/.cxx/Debug/4y6k3k1w/arm64-v8a",
+    "-B/Users/edoardo/Desktop/newcameratrigger/newcameratrigger/app/.cxx/Debug/4y6k3k1w/arm64-v8a",
     "-GNinja"
   ],
-  "intermediatesParentFolder": "/Users/edoardo/Desktop/FEDE/Android-UVC-Camera-master/app/build/intermediates/cxx/Debug/4y6k3k1w"
+  "intermediatesParentFolder": "/Users/edoardo/Desktop/newcameratrigger/newcameratrigger/app/build/intermediates/cxx/Debug/4y6k3k1w"
 }
