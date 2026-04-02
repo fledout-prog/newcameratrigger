@@ -26,10 +26,12 @@ import android.app.NotificationChannel;
 import android.app.NotificationManager;
 import android.app.PendingIntent;
 import android.app.Service;
+import android.app.ServiceInfo;
 import android.content.Intent;
 import android.os.Build;
 import android.os.IBinder;
 import android.os.PowerManager;
+import android.util.Log;
 
 /**
  * Foreground service that keeps the app process alive even when the screen is off.
@@ -40,12 +42,14 @@ public class CameraPhotoTriggerService extends Service {
 
     private static final String CHANNEL_ID      = "CameraPhotoTriggerChannel";
     private static final int    NOTIFICATION_ID = 1001;
+    private static final String TAG             = "PhotoTriggerService";
 
     private PowerManager.WakeLock wakeLock;
 
     @Override
     public void onCreate() {
         super.onCreate();
+        Log.d(TAG, "Service onCreate()");
 
         // Acquire a CPU wake lock so the device stays responsive to USB events
         // Released in onDestroy() when the service stops
@@ -56,10 +60,34 @@ public class CameraPhotoTriggerService extends Service {
                     "CameraPhotoTrigger::WakeLock");
             // 12-hour max — enough for any shooting session; user can restart if needed
             wakeLock.acquire(12 * 60 * 60 * 1000L);
+            Log.d(TAG, "WakeLock acquired");
         }
 
         createNotificationChannel();
-        startForeground(NOTIFICATION_ID, buildNotification());
+        startForegroundWithType();
+    }
+
+    /**
+     * Start foreground service with proper type for Android 14+ (targetSdkVersion 36)
+     */
+    private void startForegroundWithType() {
+        Notification notification = buildNotification();
+
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.UPSIDE_DOWN_CAKE) {
+            // Android 14+ (API 34) requires explicit ServiceInfo type
+            Log.d(TAG, "Starting foreground service with FOREGROUND_SERVICE_TYPE_CAMERA (Android 14+)");
+            try {
+                startForeground(NOTIFICATION_ID, notification, ServiceInfo.FOREGROUND_SERVICE_TYPE_CAMERA);
+            } catch (Exception e) {
+                Log.e(TAG, "Error starting foreground service with type", e);
+                // Fallback if the type is not available
+                startForeground(NOTIFICATION_ID, notification);
+            }
+        } else {
+            // Android 13 and below: use basic startForeground
+            Log.d(TAG, "Starting foreground service (Android < 14)");
+            startForeground(NOTIFICATION_ID, notification);
+        }
     }
 
     @Override
