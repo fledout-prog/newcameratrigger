@@ -123,6 +123,7 @@ public class Main extends AppCompatActivity {
     private ZoomTextView    tv;
     private Switch          previewSwitch;
     private TextView        statusText;
+    private CameraSettingsDB cameraSettingsDB;
 
     private final int       REQUEST_PERMISSION_STORAGE_READ=1;
     private final int       REQUEST_PERMISSION_STORAGE_WRITE=2;
@@ -356,21 +357,21 @@ public class Main extends AppCompatActivity {
 
         // Preview toggle switch
         previewSwitch = (Switch) findViewById(R.id.previewSwitch);
-        final CameraSettingsDB db = new CameraSettingsDB(this);
+        cameraSettingsDB = new CameraSettingsDB(this);
         if (previewSwitch != null) {
-            previewSwitch.setChecked(db.isPreviewEnabled());
+            previewSwitch.setChecked(cameraSettingsDB.isPreviewEnabled());
             previewSwitch.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
                 @Override
                 public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-                    db.setPreviewEnabled(isChecked);
+                    cameraSettingsDB.setPreviewEnabled(isChecked);
                     log("Preview enabled: " + isChecked);
                 }
             });
         }
 
         // Load saved camera settings into static fields so the stream can start
-        if (db.isConfigured()) {
-            loadSettingsFromDB(db);
+        if (cameraSettingsDB.isConfigured()) {
+            loadSettingsFromDB(cameraSettingsDB);
             updateStatusText(true);
         } else {
             updateStatusText(false);
@@ -490,7 +491,8 @@ public class Main extends AppCompatActivity {
             moveToNative = data.getBooleanExtra("moveToNative", false);
             bulkMode = data.getBooleanExtra("bulkMode", false);
             // Persist settings so next launch can auto-connect
-            new CameraSettingsDB(this).saveSettings(
+            if (cameraSettingsDB == null) cameraSettingsDB = new CameraSettingsDB(this);
+            cameraSettingsDB.saveSettings(
                     camStreamingAltSetting, camFormatIndex, camFrameIndex,
                     camFrameInterval, packetsPerRequest, maxPacketSize,
                     imageWidth, imageHeight, activeUrbs, videoformat, deviceName,
@@ -904,7 +906,8 @@ public class Main extends AppCompatActivity {
                 });
             } else {
                 // Persist the current settings before starting the stream
-                new CameraSettingsDB(this).saveSettings(
+                if (cameraSettingsDB == null) cameraSettingsDB = new CameraSettingsDB(this);
+                cameraSettingsDB.saveSettings(
                         camStreamingAltSetting, camFormatIndex, camFrameIndex,
                         camFrameInterval, packetsPerRequest, maxPacketSize,
                         imageWidth, imageHeight, activeUrbs, videoformat, deviceName,

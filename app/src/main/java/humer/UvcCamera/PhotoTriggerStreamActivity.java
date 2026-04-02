@@ -73,15 +73,19 @@ public class PhotoTriggerStreamActivity extends StartIsoStreamActivityUvc {
 
     // ---- Private helpers ----
 
-    /** Adds a full-screen black view on top of the layout to hide the preview. */
+    /** Adds a full-screen black view on top of the layout to hide the preview.
+     * The SurfaceView remains alive so the native camera engine can render frames.
+     * The parent class always uses R.layout.iso_stream_layout whose root is a RelativeLayout
+     * with id=rootView. */
     private void applyBlackOverlay() {
-        RelativeLayout root = (RelativeLayout) findViewById(R.id.rootView);
-        if (root == null) return;
+        View root = findViewById(R.id.rootView);
+        if (!(root instanceof RelativeLayout)) return;
+        RelativeLayout relRoot = (RelativeLayout) root;
         View overlay = new View(this);
         overlay.setBackgroundColor(Color.BLACK);
         RelativeLayout.LayoutParams params = new RelativeLayout.LayoutParams(
                 RelativeLayout.LayoutParams.MATCH_PARENT,
                 RelativeLayout.LayoutParams.MATCH_PARENT);
-        root.addView(overlay, params);
+        relRoot.addView(overlay, params);
     }
 }

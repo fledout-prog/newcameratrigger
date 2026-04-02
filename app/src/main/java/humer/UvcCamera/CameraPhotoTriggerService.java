@@ -48,12 +48,14 @@ public class CameraPhotoTriggerService extends Service {
         super.onCreate();
 
         // Acquire a CPU wake lock so the device stays responsive to USB events
+        // Released in onDestroy() when the service stops
         PowerManager powerManager = (PowerManager) getSystemService(POWER_SERVICE);
         if (powerManager != null) {
             wakeLock = powerManager.newWakeLock(
                     PowerManager.PARTIAL_WAKE_LOCK,
                     "CameraPhotoTrigger::WakeLock");
-            wakeLock.acquire();
+            // 12-hour max — enough for any shooting session; user can restart if needed
+            wakeLock.acquire(12 * 60 * 60 * 1000L);
         }
 
         createNotificationChannel();
